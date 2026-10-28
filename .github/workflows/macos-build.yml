@@ -1,0 +1,85 @@
+name: macOS build
+
+# Builds the MacBook version (dist/LyricSync.app + DMG) on Apple's hosted
+# macOS runners — no Mac required. Download the result from the run's
+# "LyricSync-macOS" artifact.
+#
+# Triggers: manually (Actions tab -> Run workflow) or on a version tag (v*).
+#
+# Signing: ad-hoc (automatic on Apple Silicon runners). End users right-click
+# -> Open once. For public distribution add a Developer ID certificate via
+# repo secrets later (see MACOS_BUILD.md).
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  build-macos:
+    name: Build LyricSync.app (Apple Silicon)
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pyinstaller
+
+      - name: Build .app bundle
+        run: python -m PyInstaller --clean --noconfirm lyricsync_mac.spec
+
+      - name: Self-check (strict when the database was bundled)
+        run: |
+          REPORT="$HOME/Library/Application Support/LyricSync/self_check.txt"
+          set +e
+          "./dist/LyricSync.app/Contents/MacOS/LyricSync" --self-check
+          set -e
+          if [ -f "$REPORT" ]; then cat "$REPORT"; fi
+          if [ -f "lyric_sync_gospel.lsdb" ] || [ -f "data/lyric_sync_gospel.lsdb" ]; then
+            echo "database was bundled -> requiring a passing self-check"
+            grep -q "result: OK" "$REPORT"
+          else
+            echo "no database in this checkout -> self-check not enforced"
+            echo "(users drop lyric_sync_gospel.lsdb into ~/Library/Application Support/LyricSync/data/)"
+          fi
+
+      - name: Package app (zip) and DMG
+        run: |
+          cd dist
+          ditto -c -k --keepParent LyricSync.app LyricSync-macOS-apple-silicon.zip
+          STAGE="$(mktemp -d)"
+          cp -R LyricSync.app "$STAGE/"
+          ln -s /Applications "$STAGE/Applications"
+          hdiutil create -volname "Lyric Sync" -srcfolder "$STAGE" -ov -format UDZO LyricSync-macOS.dmg
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: LyricSync-macOS
+          path: |
+            dist/LyricSync-macOS-apple-silicon.zip
+            dist/LyricSync-macOS.dmg
+          if-no-files-found: error
+
+      - name: Write run summary
+        run: |
+          {
+            echo "### Lyric Sync macOS build ready"
+            echo ""
+            echo "Download the **LyricSync-macOS** artifact (zip or dmg) below."
+            echo ""
+            echo "* Apple Silicon Macs (2020+): supported by this build."
+            echo "* First launch: right-click the app -> **Open** (ad-hoc signed)."
+            echo "* Database: bundled automatically if present in the repo;"
+            echo "  otherwise copy \`lyric_sync_gospel.lsdb\` to"
+            echo "  \`~/Library/Application Support/LyricSync/data/\`."
+          } >> "$GITHUB_STEP_SUMMARY"

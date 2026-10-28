@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+*.spec.bak
+
+# Database backups are large and machine-local — the product database
+# (lyric_sync_gospel.lsdb, project root) IS committed for the CI build.
+data/backups/
+*.lsdb-wal
+*.lsdb-shm
+
+# Self-check report (normally written to the user-data directory)
+self_check.txt
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

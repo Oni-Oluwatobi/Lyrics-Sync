@@ -1,0 +1,690 @@
+NG EXPANSION — DUPLICATE REPORT
+generated 2026-10-05T20:09:18Z
+
+source entries: 1813  rejected: 0  duplicates skipped: 682  to insert: 1131
+
+-- rejected --
+
+-- duplicates skipped --
+EXISTS   'Count on Me' by dunsin oyekan -> ng_dunsin_oyekan_count_on_me
+EXISTS   'Audience of One' by dunsin oyekan -> ng_dunsin_oyekan_audience_of_one
+EXISTS   'If All I Say Is Jesus' by dunsin oyekan -> ng_dunsin_oyekan_if_all_i_say_is_jesus_2
+EXISTS   'Your Name Is Lifted' by dunsin oyekan -> ng_dunsin_oyekan_your_name_is_lifted
+EXISTS   'Koseni to Dabire' by dunsin oyekan -> ng_dunsin_oyekan_koseni_to_dabire
+EXISTS   'Yahweh' by dunsin oyekan -> ng_dunsin_yahweh_007
+EXISTS   'This Is Home' by dunsin oyekan -> ng_dunsin_oyekan_this_is_home
+EXISTS   'Do to Me What You Want' by dunsin oyekan -> ng_dunsin_oyekan_do_to_me_what_you_want
+EXISTS   'Just You and Me' by dunsin oyekan -> ng_dunsin_oyekan_just_you_and_me
+EXISTS   'Spotlight' by dunsin oyekan -> ng_dunsin_oyekan_spotlight
+EXISTS   'With You' by dunsin oyekan -> ng_dunsin_oyekan_with_you
+EXISTS   'Amazing' by dunsin oyekan -> ng_dunsin_oyekan_amazing
+EXISTS   'Na You' by dunsin oyekan -> ng_dunsin_oyekan_na_you
+EXISTS   'Miraculous God' by dunsin oyekan -> ng_dunsin_oyekan_miraculous_god
+EXISTS   'You Are Good' by dunsin oyekan -> ng_dunsin_oyekan_you_are_good
+EXISTS   'God' by dunsin oyekan -> ng_dunsin_oyekan_god
+EXISTS   'Audience of One/Amazing (Mash-Up)' by dunsin oyekan -> ng_dunsin_oyekan_audience_of_one_amazing_mash_up
+EXISTS   'We Worship You' by dunsin oyekan -> ng_dunsin_oyekan_we_worship_you
+EXISTS   'I Proclaim' by dunsin oyekan -> ng_dunsin_oyekan_i_proclaim
+EXISTS   'If All I Say Is Jesus' by dunsin oyekan -> ng_dunsin_oyekan_if_all_i_say_is_jesus_2
+EXISTS   'Most High' by dunsin oyekan -> ng_dunsin_oyekan_most_high
+EXISTS   'Ageless' by dunsin oyekan -> ng_dunsin_oyekan_ageless
+EXISTS   'Imole De' by dunsin oyekan -> ng_dunsin_oyekan_imole_de
+EXISTS   'Song of Angels' by dunsin oyekan -> ng_dunsin_oyekan_song_of_angels
+EXISTS   'Halleluyah' by dunsin oyekan -> ng_dunsin_oyekan_halleluyah
+EXISTS   'No Words' by dunsin oyekan -> ng_dunsin_oyekan_no_words
+EXISTS   "I'll Never Stop" by dunsin oyekan -> ng_dunsin_oyekan_i_ll_never_stop
+EXISTS   'Yhwh' by dunsin oyekan -> ng_dunsin_oyekan_yhwh
+EXISTS   'Breathe' by dunsin oyekan -> ng_dunsin_breathe_009
+EXISTS   'Open Up' by dunsin oyekan -> ng_dunsin_oyekan_open_up
+EXISTS   'Holy' by dunsin oyekan -> ng_dunsin_oyekan_holy_2
+EXISTS   'You Deserve It' by dunsin oyekan -> ng_dunsin_oyekan_you_deserve_it
+EXISTS   'I Will Follow' by dunsin oyekan -> ng_dunsin_oyekan_i_will_follow
+EXISTS   'Absolutely Nothing' by dunsin oyekan -> ng_dunsin_oyekan_absolutely_nothing
+EXISTS   'Worship Your Maker' by dunsin oyekan -> ng_dunsin_oyekan_worship_your_maker
+EXISTS   'More Than a Song' by dunsin oyekan -> ng_dunsin_oyekan_more_than_a_song
+EXISTS   'Forever' by dunsin oyekan -> ng_dunsin_oyekan_forever
+EXISTS   'Yah' by dunsin oyekan -> ng_dunsin_oyekan_yah
+EXISTS   'Fragrance to Fire' by dunsin oyekan -> ng_dunsin_fragrance_to_fire_008
+EXISTS   'The Advantage' by dunsin oyekan -> ng_dunsin_oyekan_the_advantage
+EXISTS   'The Blood and the Name' by dunsin oyekan -> ng_dunsin_oyekan_the_blood_and_the_name
+EXISTS   'Fellowship to Partnership' by dunsin oyekan -> ng_dunsin_oyekan_fellowship_to_partnership
+EXISTS   'To Know You' by dunsin oyekan -> ng_dunsin_oyekan_to_know_you
+EXISTS   'At All Cost' by dunsin oyekan -> ng_dunsin_oyekan_at_all_cost
+EXISTS   "I'll Be Here" by dunsin oyekan -> ng_dunsin_oyekan_i_ll_be_here
+EXISTS   'The Difference' by dunsin oyekan -> ng_dunsin_oyekan_the_difference
+EXISTS   'You Remain the Same' by dunsin oyekan -> ng_dunsin_oyekan_you_remain_the_same
+EXISTS   'Your Goodness' by dunsin oyekan -> ng_dunsin_oyekan_your_goodness
+EXISTS   'The Anthem' by dunsin oyekan -> ng_dunsin_oyekan_the_anthem
+EXISTS   'With Joy' by dunsin oyekan -> ng_dunsin_oyekan_with_joy
+EXISTS   'Kaabo' by dunsin oyekan -> ng_dunsin_oyekan_kaabo
+EXISTS   'Before the Lord Our God' by dunsin oyekan -> ng_dunsin_oyekan_before_the_lord_our_god
+EXISTS   'The Code of Worship' by dunsin oyekan -> ng_dunsin_oyekan_the_code_of_worship
+EXISTS   'When God Walks In' by dunsin oyekan -> ng_dunsin_oyekan_when_god_walks_in
+EXISTS   'Those Who Will Win' by dunsin oyekan -> ng_dunsin_oyekan_those_who_will_win
+EXISTS   'Halleluyah (The Sacred Sound)' by dunsin oyekan -> ng_dunsin_oyekan_halleluyah_the_sacred_sound
+EXISTS   'Arise' by dunsin oyekan -> ng_dunsin_oyekan_arise
+EXISTS   'Roar' by dunsin oyekan -> ng_dunsin_oyekan_roar
+EXISTS   'Ascend' by dunsin oyekan -> ng_dunsin_oyekan_ascend
+EXISTS   'God of All Possibilities' by dunsin oyekan -> ng_dunsin_oyekan_god_of_all_possibilities
+EXISTS   'People of His Presence' by dunsin oyekan -> ng_dunsin_oyekan_people_of_his_presence
+EXISTS   'One on One' by dunsin oyekan -> ng_dunsin_oyekan_one_on_one
+EXISTS   'Always God' by dunsin oyekan -> ng_dunsin_oyekan_always_god
+EXISTS   "Can't Be Less" by dunsin oyekan -> ng_dunsin_oyekan_can_t_be_less
+EXISTS   'Maranatha' by dunsin oyekan -> ng_dunsin_oyekan_maranatha
+EXISTS   'Let Your Sound' by dunsin oyekan -> ng_dunsin_oyekan_let_your_sound
+EXISTS   'When I See You' by dunsin oyekan -> ng_dunsin_oyekan_when_i_see_you
+EXISTS   'Yahweh Be Praised' by dunsin oyekan -> ng_dunsin_oyekan_yahweh_be_praised
+EXISTS   'Stand in the Gap' by dunsin oyekan -> ng_dunsin_oyekan_stand_in_the_gap
+EXISTS   "Who Is on the Lord's Side" by dunsin oyekan -> ng_dunsin_oyekan_who_is_on_the_lord_s_side
+EXISTS   'Holy Is the Lord' by dunsin oyekan -> ng_dunsin_oyekan_holy_is_the_lord
+EXISTS   'Crown of Souls' by dunsin oyekan -> ng_dunsin_oyekan_crown_of_souls
+EXISTS   'The Great Revivalist' by dunsin oyekan -> ng_dunsin_oyekan_the_great_revivalist
+EXISTS   'Oh to Love You (Conversation with the Father)' by dunsin oyekan -> ng_dunsin_oyekan_oh_to_love_you_conversation_with_the_father
+EXISTS   'I Will Stay' by dunsin oyekan -> ng_dunsin_oyekan_i_will_stay
+EXISTS   'Because He Is, I Am' by dunsin oyekan -> ng_dunsin_oyekan_because_he_is_i_am
+EXISTS   'Finger of God' by dunsin oyekan -> ng_dunsin_oyekan_finger_of_god
+EXISTS   'Benediction' by dunsin oyekan -> ng_dunsin_oyekan_benediction
+EXISTS   'Worthy of My Praise' by dunsin oyekan -> ng_dunsin_oyekan_worthy_of_my_praise
+EXISTS   'Sing over Me' by dunsin oyekan -> ng_dunsin_oyekan_sing_over_me
+EXISTS   'Kadosh' by dunsin oyekan -> ng_dunsin_oyekan_kadosh
+EXISTS   'More Than Anything' by dunsin oyekan -> ng_dunsin_oyekan_more_than_anything
+EXISTS   'Emperor of the Universe' by dunsin oyekan -> ng_dunsin_oyekan_emperor_of_the_universe
+EXISTS   'Yeshua' by dunsin oyekan -> ng_dunsin_oyekan_yeshua
+EXISTS   'Upper Room Anthem' by dunsin oyekan -> ng_dunsin_oyekan_upper_room_anthem
+EXISTS   'Glory Song' by dunsin oyekan -> ng_dunsin_oyekan_glory_song
+EXISTS   'City of God' by dunsin oyekan -> ng_dunsin_oyekan_city_of_god
+EXISTS   'No Me Without You' by dunsin oyekan -> ng_dunsin_oyekan_no_me_without_you
+EXISTS   'Ogo' by dunsin oyekan -> ng_dunsin_oyekan_ogo
+EXISTS   "The Worshipper's Song" by dunsin oyekan -> ng_dunsin_oyekan_the_worshipper_s_song
+EXISTS   'Undignified (Excuse Me)' by dunsin oyekan -> ng_dunsin_oyekan_undignified_excuse_me
+EXISTS   'The Future' by dunsin oyekan -> ng_dunsin_oyekan_the_future
+EXISTS   "You're Deserving" by dunsin oyekan -> ng_dunsin_oyekan_you_re_deserving
+EXISTS   'Here With Us' by dunsin oyekan -> ng_dunsin_oyekan_here_with_us
+EXISTS   'Nagode' by dunsin oyekan -> ng_dunsin_oyekan_nagode
+EXISTS   'Ekondo' by dunsin oyekan -> ng_dunsin_oyekan_ekondo
+EXISTS   'Jesu' by dunsin oyekan -> ng_dunsin_oyekan_jesu
+EXISTS   'Who Is Like You' by dunsin oyekan -> ng_dunsin_oyekan_who_is_like_you
+EXISTS   'Holy' by dunsin oyekan -> ng_dunsin_oyekan_holy_2
+EXISTS   'Aladewura' by dunsin oyekan -> ng_dunsin_oyekan_aladewura
+EXISTS   'Spirit' by dunsin oyekan -> ng_dunsin_oyekan_spirit
+EXISTS   'Run to You' by dunsin oyekan -> ng_dunsin_oyekan_run_to_you
+EXISTS   'Hagiazo' by dunsin oyekan -> ng_dunsin_oyekan_hagiazo
+EXISTS   'Looking to Jesus' by dunsin oyekan -> ng_dunsin_oyekan_looking_to_jesus
+EXISTS   'Mercy' by dunsin oyekan -> ng_dunsin_oyekan_mercy
+EXISTS   'Testimony Song' by dunsin oyekan -> ng_dunsin_oyekan_testimony_song
+EXISTS   'Baba' by dunsin oyekan -> ng_dunsin_oyekan_baba
+EXISTS   'Judah' by dunsin oyekan -> ng_dunsin_oyekan_judah
+EXISTS   'Praise The Lord' by dunsin oyekan -> ng_dunsin_oyekan_praise_the_lord
+EXISTS   'More Than This' by dunsin oyekan -> ng_dunsin_oyekan_more_than_this
+EXISTS   'Only You' by dunsin oyekan -> ng_dunsin_oyekan_only_you
+EXISTS   'Number One' by dunsin oyekan -> ng_dunsin_oyekan_number_one
+EXISTS   'Speechless' by dunsin oyekan -> ng_dunsin_oyekan_speechless
+EXISTS   'I Know You Will' by dunsin oyekan -> ng_dunsin_oyekan_i_know_you_will
+EXISTS   'Burn' by dunsin oyekan -> ng_dunsin_oyekan_burn
+EXISTS   'Elohim' by dunsin oyekan -> ng_dunsin_oyekan_elohim
+EXISTS   'Baruch Hashem Adonai' by dunsin oyekan -> ng_dunsin_oyekan_baruch_hashem_adonai
+EXISTS   'Amen' by dunsin oyekan -> ng_dunsin_oyekan_amen
+EXISTS   'Iba' by dunsin oyekan -> ng_dunsin_oyekan_iba
+EXISTS   'See How Far' by dunsin oyekan -> ng_dunsin_oyekan_see_how_far
+EXISTS   'Anu Wamiri (Mercy Found Me)' by dunsin oyekan -> ng_dunsin_oyekan_anu_wamiri_mercy_found_me
+EXISTS   'Jesus, My Everything' by dunsin oyekan -> ng_dunsin_oyekan_jesus_my_everything
+EXISTS   'You Are All I Need: Pt. II' by dunsin oyekan -> ng_dunsin_oyekan_you_are_all_i_need_pt_ii
+EXISTS   'Eagles Flight (Original)' by lawrence oyor -> ng_lawrence_oyor_eagles_flight_original
+EXISTS   'Eagles Flight (Chant Version)' by lawrence oyor -> ng_lawrence_oyor_eagles_flight_chant_version
+EXISTS   'My Daddy, My Daddy (Live)' by lawrence oyor -> ng_lawrence_oyor_my_daddy_my_daddy_live
+EXISTS   'Rain of Favour' by lawrence oyor -> ng_lawrence_oyor_rain_of_favour
+EXISTS   'Adua Ke (Cover)' by lawrence oyor -> ng_lawrence_oyor_adua_ke_cover
+EXISTS   'In Christ Alone' by lawrence oyor -> ng_lawrence_oyor_in_christ_alone
+EXISTS   'My Daddy My Daddy' by lawrence oyor -> ng_lawrence_oyor_my_daddy_my_daddy
+EXISTS   'My Daddy, My Daddy (Live at Aiiih - As It Is in Heaven)' by lawrence oyor -> ng_lawrence_oyor_my_daddy_my_daddy_live_at_aiiih_as_it_is_in_heaven
+EXISTS   '911' by lawrence oyor -> ng_lawrence_oyor_911
+EXISTS   'Eagles Take Off' by lawrence oyor -> ng_lawrence_oyor_eagles_take_off
+EXISTS   'Major Shifts and breakthroughs' by lawrence oyor -> ng_lawrence_oyor_major_shifts_and_breakthroughs
+EXISTS   'I am the King' by lawrence oyor -> ng_lawrence_oyor_i_am_the_king
+EXISTS   'Give Me Tears To Cry' by lawrence oyor -> ng_lawrence_oyor_give_me_tears_to_cry
+EXISTS   'The Cleansing Fire' by lawrence oyor -> ng_lawrence_oyor_the_cleansing_fire
+EXISTS   'Favourite Song' by lawrence oyor -> ng_lawrence_oyor_favourite_song
+EXISTS   'To See You' by lawrence oyor -> ng_lawrence_oyor_to_see_you
+EXISTS   'Confessions for a Progressive Year' by lawrence oyor -> ng_lawrence_oyor_confessions_for_a_progressive_year
+EXISTS   'Confession Over my Purpose and Destiny' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_purpose_and_destiny
+EXISTS   'Confession Over my Body' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_body
+EXISTS   'Confession Over my Environment' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_environment
+EXISTS   'Confession Over my Spirit' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_spirit
+EXISTS   'Confession Over my Soul' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_soul
+EXISTS   'Confession Over my Family' by lawrence oyor -> ng_lawrence_oyor_confession_over_my_family
+EXISTS   'Healings Miracles Signs and Wonders' by lawrence oyor -> ng_lawrence_oyor_healings_miracles_signs_and_wonders
+EXISTS   'I will still be standing' by lawrence oyor -> ng_lawrence_oyor_i_will_still_be_standing
+EXISTS   'Ebenezer DGC Live Chant (Live)' by lawrence oyor -> ng_lawrence_oyor_ebenezer_dgc_live_chant_live
+EXISTS   'Soldier wake up your strength' by lawrence oyor -> ng_lawrence_oyor_soldier_wake_up_your_strength
+EXISTS   'Eagles Flight' by lawrence oyor -> ng_lawrence_oyor_eagles_flight
+EXISTS   'Favour' by lawrence oyor -> ng_lawrence_oyor_favour
+EXISTS   'Favour (Raw Version)' by lawrence oyor -> ng_lawrence_oyor_favour_raw_version
+EXISTS   'JOY ON MY ACCOUNT' by lawrence oyor -> ng_lawrence_oyor_joy_on_my_account
+EXISTS   'Favour (Violin Cover)' by lawrence oyor -> ng_lawrence_oyor_favour_violin_cover
+EXISTS   'Alignment Chant' by lawrence oyor -> ng_lawrence_oyor_alignment_chant
+EXISTS   'I will never bow' by lawrence oyor -> ng_lawrence_oyor_i_will_never_bow
+EXISTS   'No Turning Back II' by lawrence oyor -> ng_lawrence_oyor_no_turning_back_ii
+EXISTS   'Banner' by lawrence oyor -> ng_lawrence_oyor_banner
+EXISTS   'Burn the world' by lawrence oyor -> ng_lawrence_oyor_burn_the_world
+EXISTS   'Wait' by lawrence oyor -> ng_lawrence_oyor_wait
+EXISTS   'Sold Out' by lawrence oyor -> ng_lawrence_oyor_sold_out
+EXISTS   'Jugular Jugular' by lawrence oyor -> ng_lawrence_oyor_jugular_jugular
+EXISTS   'I have escaped' by lawrence oyor -> ng_lawrence_oyor_i_have_escaped
+EXISTS   'I have escaped (Main Version)' by lawrence oyor -> ng_lawrence_oyor_i_have_escaped_main_version
+EXISTS   'Living Water' by lawrence oyor -> ng_lawrence_oyor_living_water
+EXISTS   'TONGUES OF FIRE' by lawrence oyor -> ng_lawrence_oyor_tongues_of_fire
+EXISTS   'In Love' by lawrence oyor -> ng_lawrence_oyor_in_love
+EXISTS   'Yhvh Elohim' by lawrence oyor -> ng_lawrence_oyor_yhvh_elohim
+EXISTS   'Overflow' by lawrence oyor -> ng_lawrence_oyor_overflow
+EXISTS   'The Train' by lawrence oyor -> ng_lawrence_oyor_the_train
+EXISTS   'Heaven' by lawrence oyor -> ng_lawrence_oyor_heaven
+EXISTS   'Love (Acoustic)' by lawrence oyor -> ng_lawrence_oyor_love_acoustic
+EXISTS   'Realm of Glory' by lawrence oyor -> ng_lawrence_oyor_realm_of_glory
+EXISTS   'Worthy of My Praise' by lawrence oyor -> ng_lawrence_oyor_worthy_of_my_praise
+EXISTS   'Let There Be Many Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_let_there_be_many_chant_of_ascent
+EXISTS   'Flood Gates' by lawrence oyor -> ng_lawrence_oyor_flood_gates
+EXISTS   'We will be many' by lawrence oyor -> ng_lawrence_oyor_we_will_be_many
+EXISTS   'Do It Again Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_do_it_again_chant_of_ascent
+EXISTS   'Holy Ghost Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_holy_ghost_chant_of_ascent
+EXISTS   'HolyGhost Baptism Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_holyghost_baptism_chant_of_ascent
+EXISTS   'I Need You Jesus Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_i_need_you_jesus_chant_of_ascent
+EXISTS   'Omnipotent Father of Light Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_omnipotent_father_of_light_chant_of_ascent
+EXISTS   'Why Should I Fear When I Have You Chant of Ascent' by lawrence oyor -> ng_lawrence_oyor_why_should_i_fear_when_i_have_you_chant_of_ascent
+EXISTS   'Imole' by lawrence oyor -> ng_lawrence_oyor_imole
+EXISTS   'Ebi n’pami' by lawrence oyor -> ng_lawrence_oyor_ebi_n_pami
+EXISTS   'Holy' by lawrence oyor -> ng_lawrence_oyor_holy
+EXISTS   'FAVOUR ANEW' by lawrence oyor -> ng_lawrence_oyor_favour_anew
+EXISTS   'Echoes of Grace (Favour) [Slowed & Reverb]' by lawrence oyor -> ng_lawrence_oyor_echoes_of_grace_favour_slowed_reverb
+EXISTS   'Oshimiri Atata Yahweh' by lawrence oyor -> ng_lawrence_oyor_oshimiri_atata_yahweh
+EXISTS   'Daily Sounds' by lawrence oyor -> ng_lawrence_oyor_daily_sounds
+EXISTS   'Dreaming With God' by lawrence oyor -> ng_lawrence_oyor_dreaming_with_god
+EXISTS   'Come Home' by lawrence oyor -> ng_lawrence_oyor_come_home
+EXISTS   'Awesome God' by lawrence oyor -> ng_lawrence_oyor_awesome_god
+EXISTS   'Demon Girl, Demon Boy' by lawrence oyor -> ng_lawrence_oyor_demon_girl_demon_boy
+EXISTS   'Jesus Changed Me 360' by lawrence oyor -> ng_lawrence_oyor_jesus_changed_me_360
+EXISTS   'Jesus Has A Lion Lamb' by lawrence oyor -> ng_lawrence_oyor_jesus_has_a_lion_lamb
+EXISTS   'May It Not Be Heard' by lawrence oyor -> ng_lawrence_oyor_may_it_not_be_heard
+EXISTS   'Upside Down' by lawrence oyor -> ng_lawrence_oyor_upside_down
+EXISTS   'May It Not Be Heard (Tongues and Chants)' by lawrence oyor -> ng_lawrence_oyor_may_it_not_be_heard_tongues_and_chants
+EXISTS   'Another Measure' by lawrence oyor -> ng_lawrence_oyor_another_measure
+EXISTS   'I’m in Love' by lawrence oyor -> ng_lawrence_oyor_i_m_in_love
+EXISTS   'Until Am Drunk' by lawrence oyor -> ng_lawrence_oyor_until_am_drunk
+EXISTS   'Only You Can Satisfy Me' by lawrence oyor -> ng_lawrence_oyor_only_you_can_satisfy_me
+EXISTS   'Prayer Power Chant' by lawrence oyor -> ng_lawrence_oyor_prayer_power_chant
+EXISTS   'Fall in Love' by lawrence oyor -> ng_lawrence_oyor_fall_in_love
+EXISTS   'I Am Hungry' by lawrence oyor -> ng_lawrence_oyor_i_am_hungry
+EXISTS   'Prophetic Chant' by lawrence oyor -> ng_lawrence_oyor_prophetic_chant
+EXISTS   'Groaning' by lawrence oyor -> ng_lawrence_oyor_groaning
+EXISTS   'Row Your Boat' by lawrence oyor -> ng_lawrence_oyor_row_your_boat
+EXISTS   'Ah Ah Ah' by lawrence oyor -> ng_lawrence_oyor_ah_ah_ah
+EXISTS   'Glory and Power' by lawrence oyor -> ng_lawrence_oyor_glory_and_power
+EXISTS   'I’m in Love with Jesus' by lawrence oyor -> ng_lawrence_oyor_i_m_in_love_with_jesus
+EXISTS   'Wine of Spirit' by lawrence oyor -> ng_lawrence_oyor_wine_of_spirit
+EXISTS   'Jesus my Lord' by lawrence oyor -> ng_lawrence_oyor_jesus_my_lord
+EXISTS   'I Love You' by lawrence oyor -> ng_lawrence_oyor_i_love_you
+EXISTS   'Intro' by mercy chinwo -> ng_mercy_chinwo_intro
+EXISTS   'Bor Ekom' by mercy chinwo -> ng_mercy_chinwo_bor_ekom
+EXISTS   'My Responsibility' by mercy chinwo -> ng_mercy_chinwo_my_responsibility
+EXISTS   'Incredible God' by mercy chinwo -> ng_mercy_chinwo_incredible_god
+EXISTS   'Receive It' by mercy chinwo -> ng_mercy_chinwo_receive_it
+EXISTS   'Excess Love' by mercy chinwo -> ng_mercy_excess_love_010
+EXISTS   'Omekannaya' by mercy chinwo -> ng_mercy_chinwo_omekannaya
+EXISTS   'With All My Heart' by mercy chinwo -> ng_mercy_chinwo_with_all_my_heart
+EXISTS   'Igwe' by mercy chinwo -> ng_mercy_chinwo_igwe
+EXISTS   'Rest' by mercy chinwo -> ng_mercy_chinwo_rest
+EXISTS   'Omotalk Skit' by mercy chinwo -> ng_mercy_chinwo_omotalk_skit
+EXISTS   'Regular' by mercy chinwo -> ng_mercy_chinwo_regular
+EXISTS   'Imenem' by mercy chinwo -> ng_mercy_chinwo_imenem
+EXISTS   'Correct' by mercy chinwo -> ng_mercy_chinwo_correct
+EXISTS   'I Am' by mercy chinwo -> ng_mercy_chinwo_i_am
+EXISTS   'Inhedinma' by mercy chinwo -> ng_mercy_chinwo_inhedinma
+EXISTS   'Baby Song' by mercy chinwo -> ng_mercy_chinwo_baby_song
+EXISTS   'Udeme' by mercy chinwo -> ng_mercy_chinwo_udeme
+EXISTS   'Tasted of Your Power' by mercy chinwo -> ng_mercy_chinwo_tasted_of_your_power
+EXISTS   'Onye' by mercy chinwo -> ng_mercy_chinwo_onye
+EXISTS   'Obinasom' by mercy chinwo -> ng_mercy_chinwo_obinasom
+EXISTS   'Onememma' by mercy chinwo -> ng_mercy_chinwo_onememma
+EXISTS   'Na You Dey Reign' by mercy chinwo -> ng_mercy_chinwo_na_you_dey_reign
+EXISTS   'Kosi' by mercy chinwo -> ng_mercy_chinwo_kosi
+EXISTS   'Oh Jesus' by mercy chinwo -> ng_mercy_chinwo_oh_jesus
+EXISTS   'Akamdinelu' by mercy chinwo -> ng_mercy_akamdinelu_012
+EXISTS   'Strong Tower' by mercy chinwo -> ng_mercy_chinwo_strong_tower
+EXISTS   'Chinedum' by mercy chinwo -> ng_mercy_chinedum_011
+EXISTS   'Excess Love (feat. JJ Hairston & Youthful Praise) [Remix]' by mercy chinwo -> ng_mercy_chinwo_excess_love_feat_jj_hairston_youthful_praise_remix
+EXISTS   'Sure Thing' by mercy chinwo -> ng_mercy_chinwo_sure_thing
+EXISTS   'No More Pain' by mercy chinwo -> ng_mercy_chinwo_no_more_pain
+EXISTS   'Confidence' by mercy chinwo -> ng_mercy_chinwo_confidence
+EXISTS   'Yesterday Today Forever' by mercy chinwo -> ng_mercy_chinwo_yesterday_today_forever
+EXISTS   'Lifter' by mercy chinwo -> ng_mercy_chinwo_lifter
+EXISTS   'Hollow' by mercy chinwo -> ng_mercy_chinwo_hollow
+EXISTS   'Imela' by mercy chinwo -> ng_mercy_chinwo_imela
+EXISTS   'Wonder' by mercy chinwo -> ng_mercy_chinwo_wonder
+EXISTS   'Only You Satisfy' by mercy chinwo -> ng_mercy_chinwo_only_you_satisfy
+EXISTS   "I'm in Awe (Live)" by mercy chinwo -> ng_mercy_chinwo_i_m_in_awe_live
+EXISTS   'More Than Enough' by mercy chinwo -> ng_mercy_chinwo_more_than_enough
+EXISTS   'Amaram Onyewem (feat. Pastor Jerry Eze) [Live]' by mercy chinwo -> ng_mercy_chinwo_amaram_onyewem_feat_pastor_jerry_eze_live
+EXISTS   'You Do This One' by mercy chinwo -> ng_mercy_chinwo_you_do_this_one
+EXISTS   'My Lover (Live)' by mercy chinwo -> ng_mercy_chinwo_my_lover_live
+EXISTS   'Oke Mmiri (Live)' by mercy chinwo -> ng_mercy_chinwo_oke_mmiri_live
+EXISTS   'My Future and Hope' by mercy chinwo -> ng_mercy_chinwo_my_future_and_hope
+EXISTS   'Too Many Reasons' by mercy chinwo -> ng_mercy_chinwo_too_many_reasons
+EXISTS   'From the Rising' by mercy chinwo -> ng_mercy_chinwo_from_the_rising
+EXISTS   'Not the Same' by mercy chinwo -> ng_mercy_chinwo_not_the_same
+EXISTS   'Father' by mercy chinwo -> ng_mercy_chinwo_father
+EXISTS   'You Are My God' by mercy chinwo -> ng_mercy_chinwo_you_are_my_god
+EXISTS   'All Powerful and Sovereign' by mercy chinwo -> ng_mercy_chinwo_all_powerful_and_sovereign
+EXISTS   'None Like You (feat. MOGmusic)' by mercy chinwo -> ng_mercy_chinwo_none_like_you_feat_mogmusic
+EXISTS   'You No Let Them' by mercy chinwo -> ng_mercy_chinwo_you_no_let_them
+EXISTS   'When You Say a Thing' by mercy chinwo -> ng_mercy_chinwo_when_you_say_a_thing
+EXISTS   'We Move' by mercy chinwo -> ng_mercy_chinwo_we_move
+EXISTS   'Heaven and Earth Adore You' by mercy chinwo -> ng_mercy_chinwo_heaven_and_earth_adore_you
+EXISTS   'Onyeoma (Good God)' by mercy chinwo -> ng_mercy_chinwo_onyeoma_good_god
+EXISTS   'I Depend on You' by mercy chinwo -> ng_mercy_chinwo_i_depend_on_you
+EXISTS   'Testimony' by mercy chinwo -> ng_mercy_chinwo_testimony
+EXISTS   'Trust' by mercy chinwo -> ng_mercy_chinwo_trust
+EXISTS   'XX Love' by mercy chinwo -> ng_mercy_chinwo_xx_love
+EXISTS   'Love Expression' by mercy chinwo -> ng_mercy_chinwo_love_expression
+EXISTS   'Eze' by mercy chinwo -> ng_mercy_chinwo_eze
+EXISTS   'Power Belongs To Jesus' by mercy chinwo -> ng_mercy_chinwo_power_belongs_to_jesus
+EXISTS   'Oyoyo Chukwu' by mercy chinwo -> ng_mercy_chinwo_oyoyo_chukwu
+EXISTS   'Onyedikagi' by mercy chinwo -> ng_mercy_chinwo_onyedikagi
+EXISTS   'Yahweh' by mercy chinwo -> ng_mercy_chinwo_yahweh
+EXISTS   'Suddenly' by mercy chinwo -> ng_mercy_chinwo_suddenly
+EXISTS   'Amazing God' by mercy chinwo -> ng_mercy_chinwo_amazing_god
+EXISTS   'Give Me Chance' by mercy chinwo -> ng_mercy_chinwo_give_me_chance
+EXISTS   "It's the Season (Live Performance)" by mercy chinwo -> ng_mercy_chinwo_it_s_the_season_live_performance
+EXISTS   'Okaka' by mercy chinwo -> ng_mercy_chinwo_okaka
+EXISTS   'Promise Keeper' by mercy chinwo -> ng_mercy_chinwo_promise_keeper
+EXISTS   'My God' by mercy chinwo -> ng_mercy_chinwo_my_god
+EXISTS   'Nana Owei' by mercy chinwo -> ng_mercy_chinwo_nana_owei
+EXISTS   'Enjoyment' by mercy chinwo -> ng_mercy_chinwo_enjoyment
+EXISTS   'More Than Gold' by mercy chinwo -> ng_mercy_chinwo_more_than_gold
+EXISTS   'Excess Love Remix (feat. Mercy Chinwo) [Live]' by mercy chinwo -> ng_mercy_chinwo_excess_love_remix_feat_mercy_chinwo_live
+EXISTS   'Okemmuo (The Spirit of the Spirit)' by mercy chinwo -> ng_mercy_chinwo_okemmuo_the_spirit_of_the_spirit
+EXISTS   'I Never See' by mercy chinwo -> ng_mercy_chinwo_i_never_see
+EXISTS   'Jesus' by mercy chinwo -> ng_mercy_chinwo_jesus
+EXISTS   'Omeriwo' by mercy chinwo -> ng_mercy_chinwo_omeriwo
+EXISTS   'Selense' by mercy chinwo -> ng_mercy_chinwo_selense
+EXISTS   'Ikaririakari (Extended Version)' by mercy chinwo -> ng_mercy_chinwo_ikaririakari_extended_version
+EXISTS   'Beyond Me (Live at Yalic, Abuja)' by mercy chinwo -> ng_mercy_chinwo_beyond_me_live_at_yalic_abuja
+EXISTS   'Taking Care (Remix)' by mercy chinwo -> ng_mercy_chinwo_taking_care_remix
+EXISTS   'Oil on My Head (Remix)' by mercy chinwo -> ng_mercy_chinwo_oil_on_my_head_remix
+EXISTS   "Who Is on the Lord's Side" by mercy chinwo -> ng_mercy_chinwo_who_is_on_the_lord_s_side
+EXISTS   'Ibaruba' by mercy chinwo -> ng_mercy_chinwo_ibaruba
+EXISTS   'The Doing of the Lord' by mercy chinwo -> ng_mercy_chinwo_the_doing_of_the_lord
+EXISTS   'Yes Sir' by mercy chinwo -> ng_mercy_chinwo_yes_sir
+EXISTS   'ALL STARS WORSHIP (Live)' by mercy chinwo -> ng_mercy_chinwo_all_stars_worship_live
+EXISTS   'Throne Room Worship (Volume Three)' by mercy chinwo -> ng_mercy_chinwo_throne_room_worship_volume_three
+EXISTS   'Jesus United' by mercy chinwo -> ng_mercy_chinwo_jesus_united
+EXISTS   'Unusual Praise (Live)' by mercy chinwo -> ng_mercy_chinwo_unusual_praise_live
+EXISTS   'Anyi Abiawo' by mercy chinwo -> ng_mercy_chinwo_anyi_abiawo
+EXISTS   "Someone's At The Door" by nathaniel bassey -> ng_nathaniel_bassey_someone_s_at_the_door_2
+EXISTS   'Emi Mimo' by nathaniel bassey -> ng_nathaniel_bassey_emi_mimo
+EXISTS   'Holy Spirit Come' by nathaniel bassey -> ng_nathaniel_bassey_holy_spirit_come
+EXISTS   'Elohim' by nathaniel bassey -> ng_nathaniel_bassey_elohim
+EXISTS   'I Believe In You' by nathaniel bassey -> ng_nathaniel_bassey_i_believe_in_you
+EXISTS   'You Are Holy' by nathaniel bassey -> ng_nathaniel_bassey_you_are_holy
+EXISTS   'Nothing Without Love' by nathaniel bassey -> ng_nathaniel_bassey_nothing_without_love
+EXISTS   'Book Of Life' by nathaniel bassey -> ng_nathaniel_bassey_book_of_life
+EXISTS   'Halleluyah' by nathaniel bassey -> ng_nathaniel_bassey_halleluyah
+EXISTS   'All I Need' by nathaniel bassey -> ng_nathaniel_bassey_all_i_need
+EXISTS   'Casting Crowns' by nathaniel bassey -> ng_nathaniel_bassey_casting_crowns
+EXISTS   'Who Compares' by nathaniel bassey -> ng_nathaniel_bassey_who_compares
+EXISTS   'We Bless Your Name' by nathaniel bassey -> ng_nathaniel_bassey_we_bless_your_name
+EXISTS   'The Son of God' by nathaniel bassey -> ng_nathaniel_bassey_the_son_of_god
+EXISTS   'I Know You Are Here' by nathaniel bassey -> ng_nathaniel_bassey_i_know_you_are_here
+EXISTS   'You Deserve the Glory (No One)' by nathaniel bassey -> ng_nathaniel_bassey_you_deserve_the_glory_no_one
+EXISTS   'Casting Crowns (Lifting Hands)' by nathaniel bassey -> ng_nathaniel_bassey_casting_crowns_lifting_hands
+EXISTS   'I Believe in You' by nathaniel bassey -> ng_nathaniel_bassey_i_believe_in_you
+EXISTS   'Waiting' by nathaniel bassey -> ng_nathaniel_bassey_waiting
+EXISTS   'Jesus' by nathaniel bassey -> ng_nathaniel_bassey_jesus
+EXISTS   'Imela' by nathaniel bassey -> ng_nathaniel_imela_003
+EXISTS   'So Amazing' by nathaniel bassey -> ng_nathaniel_bassey_so_amazing
+EXISTS   'God of Love' by nathaniel bassey -> ng_nathaniel_bassey_god_of_love
+EXISTS   'Come, Lord Come' by nathaniel bassey -> ng_nathaniel_bassey_come_lord_come
+EXISTS   'No Other God' by nathaniel bassey -> ng_nathaniel_bassey_no_other_god
+EXISTS   'Take Your Glory' by nathaniel bassey -> ng_nathaniel_bassey_take_your_glory
+EXISTS   "I've Come to Worship" by nathaniel bassey -> ng_nathaniel_bassey_i_ve_come_to_worship
+EXISTS   'The Champion' by nathaniel bassey -> ng_nathaniel_bassey_the_champion
+EXISTS   'This God Is Too Good' by nathaniel bassey -> ng_nathaniel_bassey_this_god_is_too_good
+EXISTS   'Glorious God' by nathaniel bassey -> ng_nathaniel_bassey_glorious_god
+EXISTS   'Eze' by nathaniel bassey -> ng_nathaniel_bassey_eze
+EXISTS   'You Are God' by nathaniel bassey -> ng_nathaniel_bassey_you_are_god
+EXISTS   'Onise Iyanu' by nathaniel bassey -> ng_nathaniel_onise_iyanu_004
+EXISTS   'Like A Symphony' by nathaniel bassey -> ng_nathaniel_bassey_like_a_symphony
+EXISTS   'I Love You' by nathaniel bassey -> ng_nathaniel_bassey_i_love_you
+EXISTS   'Celebrate Jesus' by nathaniel bassey -> ng_nathaniel_bassey_celebrate_jesus
+EXISTS   'Great and Marvelous' by nathaniel bassey -> ng_nathaniel_bassey_great_and_marvelous
+EXISTS   'Oh Jehovah' by nathaniel bassey -> ng_nathaniel_bassey_oh_jehovah
+EXISTS   'The Blood' by nathaniel bassey -> ng_nathaniel_bassey_the_blood
+EXISTS   'Wonderful Wonder' by nathaniel bassey -> ng_nathaniel_bassey_wonderful_wonder
+EXISTS   'Take the Stage' by nathaniel bassey -> ng_nathaniel_bassey_take_the_stage
+EXISTS   'Alagbada Ina' by nathaniel bassey -> ng_nathaniel_bassey_alagbada_ina
+EXISTS   'We Need You Now' by nathaniel bassey -> ng_nathaniel_bassey_we_need_you_now
+EXISTS   'Never the Same' by nathaniel bassey -> ng_nathaniel_bassey_never_the_same
+EXISTS   'Abba Father' by nathaniel bassey -> ng_nathaniel_bassey_abba_father
+EXISTS   'Jesus Jesus' by nathaniel bassey -> ng_nathaniel_bassey_jesus_jesus
+EXISTS   'The Living God' by nathaniel bassey -> ng_nathaniel_bassey_the_living_god
+EXISTS   'Elshaddai' by nathaniel bassey -> ng_nathaniel_bassey_elshaddai
+EXISTS   'Incredible Love' by nathaniel bassey -> ng_nathaniel_bassey_incredible_love
+EXISTS   'Hallelujah Eh' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_eh
+EXISTS   'Intro (Doxolog: Praise God from whom All Blessings Flow)' by nathaniel bassey -> ng_nathaniel_bassey_intro_doxolog_praise_god_from_whom_all_blessings_flow
+EXISTS   'Great Jehovah, Great I Am' by nathaniel bassey -> ng_nathaniel_bassey_great_jehovah_great_i_am
+EXISTS   'Strong Tower' by nathaniel bassey -> ng_nathaniel_bassey_strong_tower
+EXISTS   'Resurrection & the Life' by nathaniel bassey -> ng_nathaniel_bassey_resurrection_the_life
+EXISTS   'Kore Enye Fonde (For He is Good)' by nathaniel bassey -> ng_nathaniel_bassey_kore_enye_fonde_for_he_is_good
+EXISTS   'How Sweet the Name of Jesus Sounds' by nathaniel bassey -> ng_nathaniel_bassey_how_sweet_the_name_of_jesus_sounds
+EXISTS   'Hallelujah-Amen' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_amen
+EXISTS   'Amen Chant' by nathaniel bassey -> ng_nathaniel_bassey_amen_chant
+EXISTS   'Holy Is Your Name' by nathaniel bassey -> ng_nathaniel_bassey_holy_is_your_name
+EXISTS   'Awamaridi' by nathaniel bassey -> ng_nathaniel_bassey_awamaridi
+EXISTS   'This Is Who I Am' by nathaniel bassey -> ng_nathaniel_bassey_this_is_who_i_am
+EXISTS   'By the Spirit' by nathaniel bassey -> ng_nathaniel_bassey_by_the_spirit
+EXISTS   'Let My Life' by nathaniel bassey -> ng_nathaniel_bassey_let_my_life
+EXISTS   'When I Met Jesus (The Call)' by nathaniel bassey -> ng_nathaniel_bassey_when_i_met_jesus_the_call
+EXISTS   'When I Met Jesus (Trumpet Version)' by nathaniel bassey -> ng_nathaniel_bassey_when_i_met_jesus_trumpet_version
+EXISTS   'Emmanuel' by nathaniel bassey -> ng_nathaniel_bassey_emmanuel
+EXISTS   'All Power' by nathaniel bassey -> ng_nathaniel_bassey_all_power
+EXISTS   'There Is a Place' by nathaniel bassey -> ng_nathaniel_bassey_there_is_a_place
+EXISTS   'He Has Prevailed' by nathaniel bassey -> ng_nathaniel_bassey_he_has_prevailed
+EXISTS   'Holy' by nathaniel bassey -> ng_nathaniel_bassey_holy
+EXISTS   'Jehovah Nissi' by nathaniel bassey -> ng_nathaniel_bassey_jehovah_nissi
+EXISTS   'The King Is Coming' by nathaniel bassey -> ng_nathaniel_bassey_the_king_is_coming
+EXISTS   'Carry Me' by nathaniel bassey -> ng_nathaniel_bassey_carry_me
+EXISTS   'Thank You Lord' by nathaniel bassey -> ng_nathaniel_bassey_thank_you_lord
+EXISTS   'I Will Dance' by nathaniel bassey -> ng_nathaniel_bassey_i_will_dance
+EXISTS   'You Are Holy' by nathaniel bassey -> ng_nathaniel_bassey_you_are_holy
+EXISTS   'Psalm 91' by nathaniel bassey -> ng_nathaniel_bassey_psalm_91
+EXISTS   'Yeshua Hamashiach' by nathaniel bassey -> ng_nathaniel_bassey_yeshua_hamashiach
+EXISTS   'Sound the Trumpet - Intro' by nathaniel bassey -> ng_nathaniel_bassey_sound_the_trumpet_intro
+EXISTS   'Hallelujah Challenge Praise Medley' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_challenge_praise_medley
+EXISTS   'Yahweh Yahweh' by nathaniel bassey -> ng_nathaniel_bassey_yahweh_yahweh
+EXISTS   'What a Saviour' by nathaniel bassey -> ng_nathaniel_bassey_what_a_saviour
+EXISTS   'I Remember' by nathaniel bassey -> ng_nathaniel_bassey_i_remember
+EXISTS   'So Good' by nathaniel bassey -> ng_nathaniel_bassey_so_good
+EXISTS   'Olorun Agbaye - You Are Mighty' by nathaniel bassey -> ng_nathaniel_bassey_olorun_agbaye_you_are_mighty
+EXISTS   'Righteous One' by nathaniel bassey -> ng_nathaniel_bassey_righteous_one
+EXISTS   'Hungry for You' by nathaniel bassey -> ng_nathaniel_bassey_hungry_for_you
+EXISTS   'True to Your Word' by nathaniel bassey -> ng_nathaniel_bassey_true_to_your_word
+EXISTS   'Call on Me' by nathaniel bassey -> ng_nathaniel_bassey_call_on_me
+EXISTS   'Kiss Me Again - Songs of Solomon 1:2' by nathaniel bassey -> ng_nathaniel_bassey_kiss_me_again_songs_of_solomon_1_2
+EXISTS   'I Love You / Ama Medly' by nathaniel bassey -> ng_nathaniel_bassey_i_love_you_ama_medly
+EXISTS   'Hallelujah Challenge Worship Medley' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_challenge_worship_medley
+EXISTS   'Yeshua Hamashiach (Overture)' by nathaniel bassey -> ng_nathaniel_bassey_yeshua_hamashiach_overture
+EXISTS   'Ruach Elohim' by nathaniel bassey -> ng_nathaniel_bassey_ruach_elohim
+EXISTS   'Lift up Your Heads (Psalm 24)' by nathaniel bassey -> ng_nathaniel_bassey_lift_up_your_heads_psalm_24
+EXISTS   'See What the Lord Has Done' by nathaniel bassey -> ng_nathaniel_see_what_the_lord_has_done_006
+EXISTS   'Like a Symphony (Live)' by nathaniel bassey -> ng_nathaniel_bassey_like_a_symphony_live
+EXISTS   'Adonai' by nathaniel bassey -> ng_nathaniel_bassey_adonai
+EXISTS   'Worthy Is the Lamb (Hallelujah Challenge Praise Medley 2)' by nathaniel bassey -> ng_nathaniel_bassey_worthy_is_the_lamb_hallelujah_challenge_praise_medley_2
+EXISTS   'Worship Medley Interlude' by nathaniel bassey -> ng_nathaniel_bassey_worship_medley_interlude
+EXISTS   'Elshaddai Adonai' by nathaniel bassey -> ng_nathaniel_bassey_elshaddai_adonai
+EXISTS   'Exalted' by nathaniel bassey -> ng_nathaniel_bassey_exalted
+EXISTS   'You Are Here' by nathaniel bassey -> ng_nathaniel_bassey_you_are_here
+EXISTS   'The Lord Is My Light (Psalm 27)' by nathaniel bassey -> ng_nathaniel_bassey_the_lord_is_my_light_psalm_27
+EXISTS   'Ndum (My Life)' by nathaniel bassey -> ng_nathaniel_bassey_ndum_my_life
+EXISTS   'Jesus (Live)' by nathaniel bassey -> ng_nathaniel_bassey_jesus_live
+EXISTS   'Adonai (Trumpet Version)' by nathaniel bassey -> ng_nathaniel_bassey_adonai_trumpet_version
+EXISTS   'Hallelujah Anthem (Live)' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_anthem_live
+EXISTS   'Tobechukwu (Live)' by nathaniel bassey -> ng_nathaniel_bassey_tobechukwu_live
+EXISTS   'Sound of Many Waters (Live)' by nathaniel bassey -> ng_nathaniel_bassey_sound_of_many_waters_live
+EXISTS   'Fountain of Mercy (Live)' by nathaniel bassey -> ng_nathaniel_bassey_fountain_of_mercy_live
+EXISTS   'Hallelujah Praise the Lord (Live)' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_praise_the_lord_live
+EXISTS   'Hallelujah Praise the Lord Overflow (Live)' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_praise_the_lord_overflow_live
+EXISTS   'We Honour You (Live)' by nathaniel bassey -> ng_nathaniel_bassey_we_honour_you_live
+EXISTS   'There Is a Sound (Live)' by nathaniel bassey -> ng_nathaniel_bassey_there_is_a_sound_live
+EXISTS   'So Beautiful (Live)' by nathaniel bassey -> ng_nathaniel_bassey_so_beautiful_live
+EXISTS   'Ese (Live)' by nathaniel bassey -> ng_nathaniel_bassey_ese_live
+EXISTS   'Hallelujah Chant (Live)' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_chant_live
+EXISTS   'Ebenezer (Live)' by nathaniel bassey -> ng_nathaniel_bassey_ebenezer_live
+EXISTS   'Deserving (Live)' by nathaniel bassey -> ng_nathaniel_bassey_deserving_live
+EXISTS   'Glory and Honour (Live)' by nathaniel bassey -> ng_nathaniel_bassey_glory_and_honour_live
+EXISTS   'Let Your Fire Fall (Live)' by nathaniel bassey -> ng_nathaniel_bassey_let_your_fire_fall_live
+EXISTS   'Mercy Declaration (Live)' by nathaniel bassey -> ng_nathaniel_bassey_mercy_declaration_live
+EXISTS   'We Come Before Your Presence' by nathaniel bassey -> ng_nathaniel_bassey_we_come_before_your_presence
+EXISTS   'Yahweh Sabaoth' by nathaniel bassey -> ng_nathaniel_bassey_yahweh_sabaoth
+EXISTS   'In This Place' by nathaniel bassey -> ng_nathaniel_bassey_in_this_place
+EXISTS   'Iba Live' by nathaniel bassey -> ng_nathaniel_bassey_iba_live
+EXISTS   'Flow' by nathaniel bassey -> ng_nathaniel_bassey_flow
+EXISTS   'Flow (Overflow)' by nathaniel bassey -> ng_nathaniel_bassey_flow_overflow
+EXISTS   'You Are Good' by nathaniel bassey -> ng_nathaniel_bassey_you_are_good
+EXISTS   'You Are You' by nathaniel bassey -> ng_nathaniel_bassey_you_are_you
+EXISTS   'Bless the Lord' by nathaniel bassey -> ng_nathaniel_bassey_bless_the_lord
+EXISTS   'Shekinah Glory' by nathaniel bassey -> ng_nathaniel_bassey_shekinah_glory
+EXISTS   'Spirit Chant (Where The River Goes)' by nathaniel bassey -> ng_nathaniel_bassey_spirit_chant_where_the_river_goes
+EXISTS   'Adonai (Live in Israel)' by nathaniel bassey -> ng_nathaniel_bassey_adonai_live_in_israel
+EXISTS   'Behold' by nathaniel bassey -> ng_nathaniel_bassey_behold
+EXISTS   'Hallelujah Glorify' by nathaniel bassey -> ng_nathaniel_bassey_hallelujah_glorify
+EXISTS   'Jehovah Shammah' by nathaniel bassey -> ng_nathaniel_bassey_jehovah_shammah
+EXISTS   'Yahweh Sabaoth Overflow' by nathaniel bassey -> ng_nathaniel_bassey_yahweh_sabaoth_overflow
+EXISTS   'Jesus Iye' by nathaniel bassey -> ng_nathaniel_bassey_jesus_iye
+EXISTS   "Someone's at the Door" by nathaniel bassey -> ng_nathaniel_bassey_someone_s_at_the_door_2
+EXISTS   'King Eternal' by nathaniel bassey -> ng_nathaniel_bassey_king_eternal
+EXISTS   'Oluwa' by nathaniel bassey -> ng_nathaniel_bassey_oluwa
+EXISTS   'In Your Presence' by nathaniel bassey -> ng_nathaniel_bassey_in_your_presence
+EXISTS   'Glory to the Lamb' by nathaniel bassey -> ng_nathaniel_bassey_glory_to_the_lamb_2
+EXISTS   'Glory to the Lamb' by nathaniel bassey -> ng_nathaniel_bassey_glory_to_the_lamb_2
+EXISTS   'Forever' by nathaniel bassey -> ng_nathaniel_bassey_forever
+EXISTS   'Ã“ DÃ¡ra' by nathaniel bassey -> ng_nathaniel_bassey_d_ra
+EXISTS   'Come Away' by nathaniel bassey -> ng_nathaniel_bassey_come_away
+EXISTS   'What a Joy' by nathaniel bassey -> ng_nathaniel_bassey_what_a_joy
+EXISTS   "Warriors' Song" by nathaniel bassey -> ng_nathaniel_bassey_warriors_song
+EXISTS   'Jehovah' by nathaniel bassey -> ng_nathaniel_bassey_jehovah
+EXISTS   'Our Father' by nathaniel bassey -> ng_nathaniel_bassey_our_father
+EXISTS   'Agbanilagbatan' by nathaniel bassey -> ng_nathaniel_bassey_agbanilagbatan
+EXISTS   'Praise The Lord' by nathaniel bassey -> ng_nathaniel_bassey_praise_the_lord
+EXISTS   'The Battle Belongs to God (Praise Medley)' by nathaniel bassey -> ng_nathaniel_bassey_the_battle_belongs_to_god_praise_medley
+EXISTS   'The Potentate' by nathaniel bassey -> ng_nathaniel_bassey_the_potentate
+EXISTS   'Glory to God in the Highest' by nathaniel bassey -> ng_nathaniel_bassey_glory_to_god_in_the_highest
+EXISTS   'Onye Kam Ga Si Na Oyiri Gi' by nathaniel bassey -> ng_nathaniel_bassey_onye_kam_ga_si_na_oyiri_gi
+EXISTS   'New Beauty' by nathaniel bassey -> ng_nathaniel_bassey_new_beauty
+EXISTS   'Beautiful' by nathaniel bassey -> ng_nathaniel_bassey_beautiful
+EXISTS   'Adonai (live)' by nathaniel bassey -> ng_nathaniel_bassey_adonai_live
+EXISTS   'Live ministration (Live)' by nathaniel bassey -> ng_nathaniel_bassey_live_ministration_live
+EXISTS   'Dancing Around Medley' by nathaniel bassey -> ng_nathaniel_bassey_dancing_around_medley
+EXISTS   'Shekinah Glory (Live)' by nathaniel bassey -> ng_nathaniel_bassey_shekinah_glory_live
+EXISTS   'Iba' by nathaniel bassey -> ng_nathaniel_bassey_iba
+EXISTS   'LIVE WORSHIP (Live)' by nathaniel bassey -> ng_nathaniel_bassey_live_worship_live
+EXISTS   'Sounds Of Worship (Live)' by nathaniel bassey -> ng_nathaniel_bassey_sounds_of_worship_live
+EXISTS   'You Are Good (Refresh)' by nathaniel bassey -> ng_nathaniel_bassey_you_are_good_refresh
+EXISTS   'Baba We Thank You O' by nathaniel bassey -> ng_nathaniel_bassey_baba_we_thank_you_o
+EXISTS   "Someone's at the Door (Live)" by nathaniel bassey -> ng_nathaniel_bassey_someone_s_at_the_door_live
+EXISTS   'Always Good' by nathaniel bassey -> ng_nathaniel_bassey_always_good
+EXISTS   'Olowogbogboro' by nathaniel bassey -> ng_nathaniel_bassey_olowogbogboro
+EXISTS   'YOU ARE GOOD' by nathaniel bassey -> ng_nathaniel_bassey_you_are_good
+EXISTS   'Promise Keeper' by nathaniel bassey -> ng_nathaniel_bassey_promise_keeper
+EXISTS   'Doing Of The Lord' by nathaniel bassey -> ng_nathaniel_bassey_doing_of_the_lord
+EXISTS   'Stone of Help' by nathaniel bassey -> ng_nathaniel_bassey_stone_of_help
+EXISTS   'I Testify (Live)' by nathaniel bassey -> ng_nathaniel_bassey_i_testify_live
+EXISTS   'Jesu Doh (Deluxe)' by nathaniel bassey -> ng_nathaniel_bassey_jesu_doh_deluxe
+EXISTS   'Olowogbogboro (Green Worship Version)' by nathaniel bassey -> ng_nathaniel_bassey_olowogbogboro_green_worship_version
+EXISTS   'Psalm 27 (Green Worship Version)' by nathaniel bassey -> ng_nathaniel_bassey_psalm_27_green_worship_version
+EXISTS   'Jesus Iye (Live) [Green Worship Version]' by nathaniel bassey -> ng_nathaniel_bassey_jesus_iye_live_green_worship_version
+EXISTS   'TOBECHUKWU / EBENEZER' by nathaniel bassey -> ng_nathaniel_bassey_tobechukwu_ebenezer
+EXISTS   'Double Portion' by nathaniel bassey -> ng_nathaniel_bassey_double_portion
+EXISTS   'Champion' by nathaniel bassey -> ng_nathaniel_bassey_champion
+EXISTS   'Nothing Like Your Presence (feat. Travis Greene & Nathaniel Bassey) [Live from Chattanooga, Tn]' by nathaniel bassey -> ng_nathaniel_bassey_nothing_like_your_presence_feat_travis_greene_nathaniel_bass
+EXISTS   'Before Your Throne (feat. Nathaniel Bassey) [Live]' by nathaniel bassey -> ng_nathaniel_bassey_before_your_throne_feat_nathaniel_bassey_live
+EXISTS   'Agalliao (feat. Nathaniel Bassey)' by nathaniel bassey -> ng_nathaniel_bassey_agalliao_feat_nathaniel_bassey
+EXISTS   'Highest Are You (feat. Nathaniel Bassey)' by nathaniel bassey -> ng_nathaniel_bassey_highest_are_you_feat_nathaniel_bassey
+EXISTS   'Only You (feat. Nathaniel Bassey)' by nathaniel bassey -> ng_nathaniel_bassey_only_you_feat_nathaniel_bassey
+EXISTS   'Mighty God (feat. Nathaniel Bassey)' by nathaniel bassey -> ng_nathaniel_bassey_mighty_god_feat_nathaniel_bassey
+EXISTS   'Yhwh (feat. Nathaniel Bassey)' by nathaniel bassey -> ng_nathaniel_bassey_yhwh_feat_nathaniel_bassey
+EXISTS   'See How Far: Gratitude (Reflections) [feat. Nathaniel Bassey & Dunsin Oyekan]' by nathaniel bassey -> ng_nathaniel_bassey_see_how_far_gratitude_reflections_feat_nathaniel_bassey_duns
+EXISTS   'The Maranatha Song' by nathaniel bassey -> ng_nathaniel_bassey_the_maranatha_song
+EXISTS   'You Are All I Need: Pt. II' by nathaniel bassey -> ng_nathaniel_bassey_you_are_all_i_need_pt_ii
+EXISTS   'Eagles Flight (feat. Nosa Omoregie)' by nathaniel bassey -> ng_nathaniel_bassey_eagles_flight_feat_nosa_omoregie
+EXISTS   'Kilo Ro Kilo So' by minister mike -> ng_minister_mike_kilo_ro_kilo_so
+EXISTS   'Iwo Loye' by minister mike -> ng_minister_mike_iwo_loye
+EXISTS   'Toto Iba Re' by minister mike -> ng_minister_mike_toto_iba_re
+EXISTS   'Ran Mi Lowo' by minister mike -> ng_minister_mike_ran_mi_lowo
+EXISTS   'The Worship Timeout (vol 4) (feat. Minister Mike)' by minister mike -> ng_minister_mike_the_worship_timeout_vol_4_feat_minister_mike (pass-1 record)
+EXISTS   'Jen Le Yin O' by minister mike -> ng_minister_mike_jen_le_yin_o
+EXISTS   'Okan Mi' by minister mike -> ng_minister_mike_okan_mi
+EXISTS   'Emi Na Re' by minister mike -> ng_minister_mike_emi_na_re
+EXISTS   'Ma Joba Lo' by minister mike -> ng_minister_mike_ma_joba_lo
+EXISTS   'You Are the Lord' by minister mike -> ng_minister_mike_you_are_the_lord
+EXISTS   'Mo Faramo' by minister mike -> ng_minister_mike_mo_faramo
+EXISTS   'A Cry for Mercy (Worship Creed 1.0)' by minister mike -> ng_minister_mike_a_cry_for_mercy_worship_creed_1_0
+EXISTS   'Eze Ebube' by minister mike -> ng_minister_mike_eze_ebube
+EXISTS   'God of Possibilities (Live)' by minister mike -> ng_minister_mike_god_of_possibilities_live
+EXISTS   'Gbami Oluwa (Live)' by minister mike -> ng_minister_mike_gbami_oluwa_live
+EXISTS   'Healing Sound' by minister mike -> ng_minister_mike_healing_sound
+EXISTS   'Holy Ghost' by minister mike -> ng_minister_mike_holy_ghost
+EXISTS   'A Cry for Help' by minister mike -> ng_minister_mike_a_cry_for_help
+EXISTS   'A Cry for Mercy Live Perfomance' by minister mike -> ng_minister_mike_a_cry_for_mercy_live_perfomance (pass-1 record)
+EXISTS   'Ranmilowo' by minister mike -> ng_minister_mike_ranmilowo
+EXISTS   'Onise Ara (Worship Creed 0.2)' by minister mike -> ng_minister_mike_onise_ara_worship_creed_0_2
+EXISTS   'In His Presence (Live)' by minister mike -> ng_minister_mike_in_his_presence_live
+EXISTS   'Spirit Cry' by minister mike -> ng_minister_mike_spirit_cry
+EXISTS   'Pray' by minister mike -> ng_minister_mike_pray
+EXISTS   'Iwoloye (feat. Minister Mike)' by minister mike -> ng_minister_mike_iwoloye_feat_minister_mike (pass-1 record)
+EXISTS   'Slc (Live)' by minister mike -> ng_minister_mike_slc_live
+EXISTS   'Yin Oba Ogo' by minister mike -> ng_minister_mike_yin_oba_ogo
+EXISTS   'Iwo Loye' by minister mike -> ng_minister_mike_iwo_loye
+EXISTS   'A Prophetic Worship (Live)' by minister mike -> ng_minister_mike_a_prophetic_worship_live
+EXISTS   'Healing Sound' by minister mike -> ng_minister_mike_healing_sound
+EXISTS   'A Call to Intimacy' by minister mike -> ng_minister_mike_a_call_to_intimacy
+EXISTS   '12HOURS PRAYER CHARGE 1ST SESSION' by minister mike -> ng_minister_mike_12hours_prayer_charge_1st_session
+EXISTS   'A Moment Of Mercy' by minister mike -> ng_minister_mike_a_moment_of_mercy
+EXISTS   '12HOURS PRAYER CHARGE 2ND SESSION' by minister mike -> ng_minister_mike_12hours_prayer_charge_2nd_session
+EXISTS   'Session AFL' by minister mike -> ng_minister_mike_session_afl
+EXISTS   'Aye N Reti' by minister mike -> ng_minister_mike_aye_n_reti
+EXISTS   'Adake Dajo (Cover)' by minister mike -> ng_minister_mike_adake_dajo_cover
+EXISTS   'SUPERCOOL' by greatman takit -> ng_greatman_takit_supercool
+EXISTS   'HEALING HANDS' by greatman takit -> ng_greatman_takit_healing_hands
+EXISTS   'YOU ARE GOOD' by greatman takit -> ng_greatman_takit_you_are_good
+EXISTS   'INFERNO' by greatman takit -> ng_greatman_takit_inferno
+EXISTS   'WYS' by greatman takit -> ng_greatman_takit_wys
+EXISTS   'ADML' by greatman takit -> ng_greatman_takit_adml
+EXISTS   'C&B (Cast & Bind)' by greatman takit -> ng_greatman_takit_c_b_cast_bind
+EXISTS   'ALL THE PRAISE' by greatman takit -> ng_greatman_takit_all_the_praise
+EXISTS   'OLUWATOSIN' by greatman takit -> ng_greatman_takit_oluwatosin
+EXISTS   'HEAVENLY MAN' by greatman takit -> ng_greatman_takit_heavenly_man
+EXISTS   'TONGUES OF FIRE' by greatman takit -> ng_greatman_takit_tongues_of_fire
+EXISTS   'MERCY' by greatman takit -> ng_greatman_takit_mercy
+EXISTS   'NO LELE' by greatman takit -> ng_greatman_takit_no_lele
+EXISTS   'BIGGI MAN' by greatman takit -> ng_greatman_takit_biggi_man
+EXISTS   'BABA SAANU' by greatman takit -> ng_greatman_takit_baba_saanu
+EXISTS   "J'IDE MO" by greatman takit -> ng_greatman_takit_j_ide_mo
+EXISTS   'PRODIGAL' by greatman takit -> ng_greatman_takit_prodigal
+EXISTS   'HOLIDAY' by greatman takit -> ng_greatman_takit_holiday
+EXISTS   'FOG' by greatman takit -> ng_greatman_takit_fog
+EXISTS   'ETERNAL' by greatman takit -> ng_greatman_takit_eternal
+EXISTS   'CORRECT' by greatman takit -> ng_greatman_takit_correct
+EXISTS   'MANY MEN' by greatman takit -> ng_greatman_takit_many_men
+EXISTS   'FLAMES OF A WILDFIRE' by greatman takit -> ng_greatman_takit_flames_of_a_wildfire
+EXISTS   'Holy Spirit' by greatman takit -> ng_greatman_takit_holy_spirit
+EXISTS   'Chant' by greatman takit -> ng_greatman_takit_chant
+EXISTS   "Look What You've Done" by greatman takit -> ng_greatman_takit_look_what_you_ve_done
+EXISTS   'Yahweh' by greatman takit -> ng_greatman_takit_yahweh
+EXISTS   'Amen Amen' by greatman takit -> ng_greatman_takit_amen_amen
+EXISTS   'In Your Arms' by greatman takit -> ng_greatman_takit_in_your_arms
+EXISTS   'LWYD remix' by greatman takit -> ng_greatman_takit_lwyd_remix
+EXISTS   'Laughter' by greatman takit -> ng_greatman_takit_laughter
+EXISTS   'Celebration' by greatman takit -> ng_greatman_takit_celebration
+EXISTS   'Eternal Praise' by greatman takit -> ng_greatman_takit_eternal_praise
+EXISTS   'Higher' by greatman takit -> ng_greatman_takit_higher
+EXISTS   'In Love' by greatman takit -> ng_greatman_takit_in_love
+EXISTS   'Kilomo' by greatman takit -> ng_greatman_takit_kilomo
+EXISTS   'Shapally' by greatman takit -> ng_greatman_takit_shapally
+EXISTS   'Togun Togun' by greatman takit -> ng_greatman_takit_togun_togun
+EXISTS   'Story' by greatman takit -> ng_greatman_takit_story
+EXISTS   'Peteru (Peter)' by greatman takit -> ng_greatman_takit_peteru_peter
+EXISTS   'Energy' by greatman takit -> ng_greatman_takit_energy
+EXISTS   'My Daddy' by greatman takit -> ng_greatman_takit_my_daddy
+EXISTS   'Jowo' by greatman takit -> ng_greatman_takit_jowo
+EXISTS   'Bulie' by greatman takit -> ng_greatman_takit_bulie
+EXISTS   'Super Lover' by greatman takit -> ng_greatman_takit_super_lover
+EXISTS   'Run' by greatman takit -> ng_greatman_takit_run
+EXISTS   'Farawemi' by greatman takit -> ng_greatman_takit_farawemi
+EXISTS   'Let My LIfe' by greatman takit -> ng_greatman_takit_let_my_life
+EXISTS   'Sacrifice' by greatman takit -> ng_greatman_takit_sacrifice
+EXISTS   'Baba' by greatman takit -> ng_greatman_takit_baba
+EXISTS   'Confama' by greatman takit -> ng_greatman_takit_confama
+EXISTS   'Jungle Up Here' by greatman takit -> ng_greatman_takit_jungle_up_here
+EXISTS   'Spiritual Gyrating' by greatman takit -> ng_greatman_takit_spiritual_gyrating
+EXISTS   "Ain't Nobody" by greatman takit -> ng_greatman_takit_ain_t_nobody
+EXISTS   'Get' by greatman takit -> ng_greatman_takit_get
+EXISTS   'Commando' by greatman takit -> ng_greatman_takit_commando
+EXISTS   'Alaba To Costain' by greatman takit -> ng_greatman_takit_alaba_to_costain
+EXISTS   'Commando (Remix)' by greatman takit -> ng_greatman_takit_commando_remix
+EXISTS   'Vitamin C' by greatman takit -> ng_greatman_takit_vitamin_c
+EXISTS   'Volume of the Book' by greatman takit -> ng_greatman_takit_volume_of_the_book
+EXISTS   'IJO' by greatman takit -> ng_greatman_takit_ijo
+EXISTS   'Sound of Rain' by greatman takit -> ng_greatman_takit_sound_of_rain
+EXISTS   'We Prevail' by greatman takit -> ng_greatman_takit_we_prevail
+EXISTS   'Leave Am' by greatman takit -> ng_greatman_takit_leave_am
+EXISTS   'Melody' by greatman takit -> ng_greatman_takit_melody
+EXISTS   'Shapally (Answer Me)' by greatman takit -> ng_greatman_takit_shapally_answer_me
+EXISTS   'UNLIMITED' by greatman takit -> ng_greatman_takit_unlimited
+EXISTS   'Water' by greatman takit -> ng_greatman_takit_water
+EXISTS   'Prayer' by greatman takit -> ng_greatman_takit_prayer
+EXISTS   'FINIDI GEORGE (If I hear Peem)' by greatman takit -> ng_greatman_takit_finidi_george_if_i_hear_peem
+EXISTS   'Time For Shift' by greatman takit -> ng_greatman_takit_time_for_shift
+EXISTS   'Daddy Wey Dey Pamper' by greatman takit -> ng_greatman_takit_daddy_wey_dey_pamper
+EXISTS   'JUGULAR JUGULAR' by greatman takit -> ng_greatman_takit_jugular_jugular
+EXISTS   'Heaven Has Come' by greatman takit -> ng_greatman_takit_heaven_has_come
+EXISTS   'Fire Fire' by greatman takit -> ng_greatman_takit_fire_fire
+EXISTS   'Time To Shine' by greatman takit -> ng_greatman_takit_time_to_shine
+EXISTS   'I Present My Body' by greatman takit -> ng_greatman_takit_i_present_my_body
+EXISTS   'Balogun (Spontaneous Worship)' by greatman takit -> ng_greatman_takit_balogun_spontaneous_worship
+EXISTS   'Blessing and Favour' by greatman takit -> ng_greatman_takit_blessing_and_favour
+EXISTS   'Follow Follow' by greatman takit -> ng_greatman_takit_follow_follow
+EXISTS   'Glory' by greatman takit -> ng_greatman_takit_glory
+EXISTS   'Who Is Like the Lord' by greatman takit -> ng_greatman_takit_who_is_like_the_lord
+EXISTS   'Gbe Mi Fo' by greatman takit -> ng_greatman_takit_gbe_mi_fo
+EXISTS   'Agidigba' by greatman takit -> ng_greatman_takit_agidigba
+EXISTS   'Flex N Dine' by greatman takit -> ng_greatman_takit_flex_n_dine
+EXISTS   'Seen' by greatman takit -> ng_greatman_takit_seen
+EXISTS   'Far Away II' by greatman takit -> ng_greatman_takit_far_away_ii
+EXISTS   'Far Away (Remix)' by greatman takit -> ng_greatman_takit_far_away_remix
+EXISTS   'Made For This' by greatman takit -> ng_greatman_takit_made_for_this
+EXISTS   'Toyoma' by greatman takit -> ng_greatman_takit_toyoma
+EXISTS   'Standing (Remix)' by greatman takit -> ng_greatman_takit_standing_remix
+EXISTS   'Show Workings' by greatman takit -> ng_greatman_takit_show_workings
+EXISTS   'RUN OH (SPEED) 2.0' by greatman takit -> ng_greatman_takit_run_oh_speed_2_0
+EXISTS   'God Of Miracles' by greatman takit -> ng_greatman_takit_god_of_miracles
+EXISTS   'Serving A God' by greatman takit -> ng_greatman_takit_serving_a_god
+EXISTS   'Double Double' by greatman takit -> ng_greatman_takit_double_double
+EXISTS   'Uwese' by greatman takit -> ng_greatman_takit_uwese
+EXISTS   'If You Love Me' by greatman takit -> ng_greatman_takit_if_you_love_me
+EXISTS   'Ebeni' by greatman takit -> ng_greatman_takit_ebeni
+EXISTS   'According to Brother Nwachukwu' by greatman takit -> ng_greatman_takit_according_to_brother_nwachukwu
+EXISTS   'MIRACLE WORKING GOD' by greatman takit -> ng_greatman_takit_miracle_working_god
+EXISTS   'Morning Devotion' by greatman takit -> ng_greatman_takit_morning_devotion
+EXISTS   'God Abeg (This Year)' by greatman takit -> ng_greatman_takit_god_abeg_this_year
+EXISTS   'Tinbake' by greatman takit -> ng_greatman_takit_tinbake
+EXISTS   'Good Day' by greatman takit -> ng_greatman_takit_good_day
+EXISTS   'Yahweh Sabaoth' by greatman takit -> ng_greatman_takit_yahweh_sabaoth
+EXISTS   'Unending Joy' by greatman takit -> ng_greatman_takit_unending_joy
+EXISTS-URL 'Jesus United' -> ng_mercy_chinwo_jesus_united
+IN-BATCH-URL 'Final Say' (same recording URL)
+IN-BATCH-URL 'Press Button' (same recording URL)
+IN-BATCH 'Iye Re' by mike abdul (dup of 'Iye Re')
+IN-BATCH-URL 'Jésù Mi Dà' (same recording URL)
+IN-BATCH-URL 'Èyan Jésù' (same recording URL)
+IN-BATCH-URL 'Comot Body' (same recording URL)
+EXISTS   'Ndum [My Life]' by nathaniel bassey -> ng_nathaniel_bassey_ndum_my_life
+IN-BATCH 'Ibuliri Isim Elu' by mr m revelation (dup of 'Ibuliri Isim Elu')
+IN-BATCH-URL 'If No Be You' (same recording URL)
+IN-BATCH-URL 'The One' (same recording URL)
+IN-BATCH-URL 'E Dey Flow' (same recording URL)
+IN-BATCH-URL 'Majority' (same recording URL)
+IN-BATCH-URL 'Ten Million Reasons' (same recording URL)
+IN-BATCH-URL 'Umbrella' (same recording URL)
+IN-BATCH-URL 'You Are Great' (same recording URL)
+IN-BATCH 'Mighty God' by sammie okposo (dup of 'Mighty God')
+EXISTS-URL 'Omeriwo' -> ng_mercy_chinwo_omeriwo
+IN-BATCH-URL 'Comot Body' (same recording URL)
+IN-BATCH 'My Miracle' by sammie okposo (dup of 'My Miracle')
+IN-BATCH-URL 'Na Only You I Know' (same recording URL)
+IN-BATCH-URL 'Oba' (same recording URL)
+EXISTS-URL 'Jesus' -> ng_mercy_chinwo_jesus
+IN-BATCH 'Hallelujah' by samsong (dup of 'Hallelujah')
+IN-BATCH-URL 'Goal' (same recording URL)
+IN-BATCH-URL 'Goal' (same recording URL)
+IN-BATCH-URL 'Amayo' (same recording URL)
+IN-BATCH-URL 'Praise Party' (same recording URL)
+IN-BATCH-URL 'Watimagbo' (same recording URL)
+IN-BATCH-URL 'Na Only Me Know' (same recording URL)

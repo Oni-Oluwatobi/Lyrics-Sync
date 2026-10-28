@@ -1,0 +1,5 @@
+Sitemap: https://opengospellyrics.com/sitemap.xml
+Sitemap: https://opengospellyrics.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

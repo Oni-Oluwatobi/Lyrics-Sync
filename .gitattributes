@@ -1,0 +1,13 @@
+# Normalise text files; keep platform-specific EOLs out of scripts.
+* text=auto
+
+# Shell scripts and CI workflows must stay LF — CRLF breaks them on macOS/Linux.
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Databases and binary assets must never be EOL-mangled.
+*.lsdb binary
+*.icns binary
+*.ico binary
+*.png binary

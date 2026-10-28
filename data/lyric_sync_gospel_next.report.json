@@ -1,0 +1,117 @@
+{
+  "output": "C:\\Users\\The Kreadive Galaxy\\Desktop\\My Products\\Lyrics Sync\\data\\lyric_sync_gospel_next.lsdb",
+  "size_bytes": 33972224,
+  "file_sha256": "407265eedc320cefd95a863f9f268e5d8ba0063b157783c7d619b08b1940f951",
+  "content_sha256": "43a04b508f2ee5a7561c9a68fd2df1d26ea52f93c791a10f5b038a919ff95039",
+  "build_date": "2026-10-03T23:56:33Z",
+  "totals": {
+    "songs": 3044,
+    "artists": 433,
+    "lyric_lines": 57135,
+    "public_domain": 2986,
+    "metadata_only": 58,
+    "licensed": 0,
+    "new_songs": 2971,
+    "new_lyric_lines": 57012,
+    "carried_over_songs": 73,
+    "carried_over_lyric_lines": 123,
+    "carried_over_artists": 29,
+    "carried_over_index_rows": 73
+  },
+  "per_source": {
+    "watts": {
+      "parsed": 360,
+      "accepted": 360,
+      "skipped": 0
+    },
+    "chb": {
+      "parsed": 1323,
+      "accepted": 1323,
+      "skipped": 0
+    },
+    "otterbein": {
+      "parsed": 547,
+      "accepted": 546,
+      "skipped": 1
+    },
+    "chapin": {
+      "parsed": 1008,
+      "accepted": 1008,
+      "skipped": 0
+    },
+    "folk": {
+      "parsed": 250,
+      "accepted": 250,
+      "skipped": 0
+    },
+    "carols": {
+      "parsed": 88,
+      "accepted": 88,
+      "skipped": 0
+    }
+  },
+  "rejected_reasons": {
+    "fewer than 4 lyric lines": 1
+  },
+  "duplicates_dropped": 604,
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "No schema_version entry in the metadata table.",
+      "57,135 lyric line(s) without a matching song"
+    ]
+  },
+  "smoke_searches": {
+    "amazing grace": [
+      "Amazing Grace",
+      "The Death of a Sinner",
+      "A Hymn for Morning or Evening"
+    ],
+    "when peace like a river": [
+      "It Is Well with My Soul",
+      "When Shall We Meet Again",
+      "A Little While"
+    ],
+    "that saved a wretch like me": [
+      "Amazing Grace",
+      "An Evening Song",
+      "That Whoso Believeth Might Not Perish"
+    ],
+    "hark the herald angels sing": [
+      "Christ Is Born in Bethlehem",
+      "Hark; the Celestial Heralds Sing, and Hail the Birth-day of Their",
+      "Psalm 45"
+    ],
+    "great is thy faithfulness": [
+      "Great Is Thy Faithfulness",
+      "The Faithfulness of God in His Promises",
+      "Ordination"
+    ],
+    "way maker": [
+      "Nothing but the Blood of Jesus",
+      "Way Maker",
+      "A Hopeful Youth Falling Short of Heaven"
+    ],
+    "god rest you merry gentlemen": [
+      "God Rest You Merry Gentlemen!",
+      "I Make Mention of You, Etc",
+      "Friends of Freedom, Swell the Song!"
+    ],
+    "jesus thy feast we celebrate": [
+      "The Lord's Supper Instituted",
+      "The Lord's Supper Instituted",
+      "'Twas on That Dark and Doleful Night"
+    ],
+    "before jehovahs awful throne": [
+      "Psalm 100",
+      "The Last Judgment",
+      "With God Is Terrible Majesty"
+    ],
+    "in thy name o lord assembling": [
+      "A Vision of the Lamb",
+      "Rejoice with Trembling",
+      "Prayer for Deliverance Answered"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+NG CATALOGUE EXPANSION — REPORT
+generated 2026-10-05T20:10:30Z
+
+source entries: 1813
+rejected: 0
+duplicates skipped: 682
+inserted: 1131 (all METADATA_ONLY, 0 lyric lines added)
+existing records enriched: 9
+songs: 3682 -> 4813
+artists: 610 -> 1146
+lyric lines: 57135 (unchanged)
+
+-- per-artist inserted --
+Bidemi Olaoba: 94
+Festizie: 75
+Marizu: 143
+Midnight Crew: 51
+Mike Abdul: 206
+Mr M & Revelation: 148
+Neeja: 24
+Sammie Okposo: 112
+Samsong: 184
+Testimony Jaga: 94
+
+-- per-artist enriched --
+Minister Mike: 4
+Nathaniel Bassey: 5

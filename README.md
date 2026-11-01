@@ -137,6 +137,36 @@ Neither is needed on the target machine (PySide6 is bundled).
 
 ---
 
+## Importing lyrics from files
+
+`tools/import_user_lyrics.py` extracts lyric text directly from files — PDF
+hymn sheets and structured TXT lyric files — and writes it with provenance
+(filename + SHA-256 + the file's own Source/Words-by lines + rights
+attestation). Extraction is pure standard library (`tools/lyric_extract.py`).
+
+```powershell
+# Preview one file (no writes):
+python tools\import_user_lyrics.py --file song.pdf --dry-run
+
+# Known public-domain hymn (pre-1929), with songwriter metadata:
+python tools\import_user_lyrics.py --file WhenWeAllGettoHeaven.pdf ^
+    --status PUBLIC_DOMAIN --songwriter "Eliza E. Hewitt" --year 1900
+
+# A whole folder of .pdf/.txt/.md files — one backup, one recompute:
+python tools\import_user_lyrics.py --batch C:\lyrics\songpack --dry-run
+python tools\import_user_lyrics.py --batch C:\lyrics\songpack
+
+# Preview extraction only (sections, title, artist, origin):
+python tools\lyric_extract.py song.pdf --full
+```
+
+* Default `--status USER_IMPORTED` (rights clearance attested by the product
+  owner); use `--status PUBLIC_DOMAIN` only for pre-1929/traditional works.
+* Songs that already have lyrics are skipped; metadata-only rows are upgraded
+  in place. `METADATA_ONLY` rows never receive lyric text.
+
+---
+
 ## Project layout
 
 ```
@@ -171,7 +201,9 @@ lyric_sync/
             components/   search_box, result_row, widgets
             workers.py     QRunnable background tasks (DB off the UI thread)
 tests/      189 tests incl. real-database integration + auth (no network)
-tools/      build_dev_fixture.py, smoke_ui.py, build_windows.ps1, bench_search.py
+tools/      build_dev_fixture.py, smoke_ui.py, build_windows.ps1, bench_search.py,
+            lyric_extract.py (PDF/TXT lyric extraction), import_user_lyrics.py
+            (paste-in / file / batch lyric import with provenance)
 data/       alternate location for lyric_sync_gospel.lsdb
 ```
 

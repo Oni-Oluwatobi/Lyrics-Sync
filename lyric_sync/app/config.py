@@ -9,7 +9,7 @@ from pathlib import Path
 APP_NAME = "Lyric Sync"
 APP_ID = "LyricSync"
 DEVELOPER = "The Kreadive Galaxy"
-VERSION = "1.0.0"
+VERSION = "1.5.0"
 
 DATABASE_FILENAME = "lyric_sync_gospel.lsdb"
 DATABASE_DIRNAME = "data"

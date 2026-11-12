@@ -99,7 +99,7 @@ _icon = _icon if os.path.isfile(_icon) else None
 APP_NAME = "Lyric Sync"
 BUNDLE_IDENTIFIER = "com.kreadivegalaxy.lyricsync"
 # Keep in sync with lyric_sync.app.config.VERSION.
-VERSION = "1.0.0"
+VERSION = "1.5.0"
 
 info_plist = {
     "CFBundleName": APP_NAME,

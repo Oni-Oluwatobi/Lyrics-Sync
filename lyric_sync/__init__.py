@@ -11,4 +11,4 @@ __all__ = [
 
 APP_NAME = "Lyric Sync"
 DEVELOPER = "The Kreadive Galaxy"
-VERSION = "1.0.0"
+VERSION = "1.5.0"

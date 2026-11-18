@@ -74,7 +74,7 @@ def titles(response) -> list[str]:
 def test_service_opens_production_database(service: LyricSearchService) -> None:
     assert service.available
     assert service.path == PRODUCTION_DB
-    assert service.song_count == 5133
+    assert service.song_count == 5328
     assert service.get_song(AMAZING_GRACE) is not None
 
 

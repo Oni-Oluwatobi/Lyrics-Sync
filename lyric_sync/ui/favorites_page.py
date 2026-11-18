@@ -72,11 +72,15 @@ class FavoriteCard(QFrame):
         self.remove_requested.emit(self.song_id)
 
     def eventFilter(self, watched, event) -> bool:  # noqa: N802
-        if watched is self:
+        # Only Enter/Leave may trigger a repolish. Repolishing on every event
+        # re-enters this filter (polish emits StyleChange) and overflows the
+        # stack — 0xc00000fd at startup.
+        if watched is self and event.type() in (QEvent.Enter, QEvent.Leave):
             hovered = event.type() == QEvent.Enter
-            self.setProperty("hover", hovered)
-            self.style().unpolish(self)
-            self.style().polish(self)
+            if self.property("hover") != hovered:
+                self.setProperty("hover", hovered)
+                self.style().unpolish(self)
+                self.style().polish(self)
         return super().eventFilter(watched, event)
 
     def mousePressEvent(self, event) -> None:  # noqa: N802

@@ -18,7 +18,9 @@ def create_application(argv: list[str] | None = None) -> QApplication:
     args = list(sys.argv if argv is None else argv)
     app = QApplication(args)
     app.setApplicationName(config.APP_ID)
-    app.setApplicationDisplayName(APP_NAME)
+    # Explicitly empty: a non-empty display name makes Qt append
+    # " - <displayName>" to the native title bar (duplicating the name).
+    app.setApplicationDisplayName("")
     app.setOrganizationName(DEVELOPER)
     app.setApplicationVersion(VERSION)
     app.setDesktopFileName("lyricsync")

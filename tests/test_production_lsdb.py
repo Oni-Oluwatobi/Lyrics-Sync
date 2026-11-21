@@ -74,7 +74,7 @@ def titles(response) -> list[str]:
 def test_service_opens_production_database(service: LyricSearchService) -> None:
     assert service.available
     assert service.path == PRODUCTION_DB
-    assert service.song_count == 5328
+    assert service.song_count == 5336
     assert service.get_song(AMAZING_GRACE) is not None
 
 
@@ -90,7 +90,7 @@ def test_engine_is_the_downloaded_search_engine_module(
 def test_database_info_reports_manifest(service: LyricSearchService) -> None:
     info = service.database_info()
     assert isinstance(info, dict)
-    assert info.get("database_version") == "3.3.0"
+    assert info.get("database_version") == "3.4.0"
     assert info.get("database_name") == "lyric_sync_gospel.lsdb"
 
 

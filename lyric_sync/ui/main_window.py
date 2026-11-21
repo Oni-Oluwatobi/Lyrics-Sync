@@ -784,8 +784,11 @@ class MainWindow(QMainWindow):
                 self.status_dot.setProperty("state", "ok")
                 self._repolish(self.status_dot)
                 if info is not None:
+                    # Three deliberate short lines: the rail is too narrow for
+                    # one line, and a single flowing line wrapped mid-phrase.
                     self.status_label.setText(
-                        f"{info.filename}  ·  {info.song_count:,} songs  ·  "
+                        f"{info.filename}<br>"
+                        f"{info.song_count:,} songs<br>"
                         f"{info.lyric_line_count:,} lyric lines"
                     )
                     self.settings_page.set_database_status(

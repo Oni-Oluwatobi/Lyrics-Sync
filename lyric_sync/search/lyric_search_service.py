@@ -509,11 +509,17 @@ def _exact_title_first(
                 if normalize_text(result.song.title) == wanted
                 or any(normalize_text(alias) == wanted for alias in result.song.aliases)
             ]
-            if exact and exact != group:
-                exact_ids = {id(result) for result in exact}
-                group = exact + [
-                    result for result in group if id(result) not in exact_ids
+            exact_ids = {id(result) for result in exact}
+            rest = [result for result in group if id(result) not in exact_ids]
+            # Among equally-scored non-exact hits, put songs whose lyrics can
+            # actually be shown first. Metadata-only rows are identification
+            # only; without this they tie with readable songs and crowd the
+            # top of results with "Lyrics not distributed" dead ends.
+            if any(result.has_lyrics for result in rest):
+                rest = [result for result in rest if result.has_lyrics] + [
+                    result for result in rest if not result.has_lyrics
                 ]
+            group = exact + rest
         ordered.extend(group)
         start = end + 1
     return ordered

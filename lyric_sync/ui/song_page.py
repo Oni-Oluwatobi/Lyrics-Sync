@@ -89,6 +89,11 @@ class SongPage(QWidget):
         self._artist_label = QLabel("")
         self._artist_label.setProperty("role", "byline")
         self.header_box.addWidget(self._artist_label)
+        # Chips row is built ONCE and refilled per song; appending a new
+        # layout on every show_song() stacked duplicate chip rows.
+        self._chips_row = QHBoxLayout()
+        self._chips_row.setSpacing(SP_SM)
+        self.header_box.addLayout(self._chips_row)
         holder_layout.addLayout(self.header_box, 1)
 
         self.favorite_button = icon_text_button("star", "Favorite", "secondary")
@@ -125,14 +130,33 @@ class SongPage(QWidget):
         reader_layout.addWidget(scroll)
         self._reader_scroll = scroll
 
-        # Inspector (right)
+        # Inspector (right): content lives in a scroll area so the metadata
+        # rows keep their natural height (they used to be squeezed to ~half
+        # and the labels were sliced) when the window is short.
         self.inspector = QFrame()
         self.inspector.setObjectName("inspector")
         self.inspector.setMinimumWidth(260)
         self.inspector.setMaximumWidth(380)
-        self.inspector_layout = QVBoxLayout(self.inspector)
+        inspector_outer = QVBoxLayout(self.inspector)
+        inspector_outer.setContentsMargins(0, 0, 0, 0)
+        inspector_outer.setSpacing(0)
+
+        inspector_scroll = QScrollArea()
+        inspector_scroll.setWidgetResizable(True)
+        inspector_scroll.setFrameShape(QScrollArea.NoFrame)
+        inspector_scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        inspector_scroll.setStyleSheet(
+            "QScrollArea { background: transparent; border: none; }"
+            "QScrollArea > QWidget > QWidget { background: transparent; }"
+        )
+        inspector_host = QWidget()
+        inspector_host.setStyleSheet("background: transparent;")
+        self.inspector_layout = QVBoxLayout(inspector_host)
         self.inspector_layout.setContentsMargins(20, SP_LG, 20, SP_LG)
         self.inspector_layout.setSpacing(SP_MD)
+        inspector_scroll.setWidget(inspector_host)
+        inspector_outer.addWidget(inspector_scroll)
+        self._inspector_scroll = inspector_scroll
 
         self.splitter.addWidget(reader)
         self.splitter.addWidget(self.inspector)
@@ -187,19 +211,19 @@ class SongPage(QWidget):
         self._sync_favorite_button()
 
         # ---- chips under the header (match quality + status)
-        chips = QHBoxLayout()
-        chips.setSpacing(SP_SM)
+        self._clear_chips()
         if match_label is not None:
-            chips.addWidget(Chip(match_label.value.upper(), _LABEL_KIND[match_label]))
-        chips.addWidget(
+            self._chips_row.addWidget(Chip(match_label.value.upper(), _LABEL_KIND[match_label]))
+        self._chips_row.addWidget(
             Chip(song.verification_label.upper(),
                  "verified" if song.is_verified else "meta")
         )
-        chips.addStretch(1)
-        self.header_box.addLayout(chips)
+        self._chips_row.addStretch(1)
 
         # ---- copyright banner (metadata-only records)
+        banner_shown = False
         if song.copyright_status == METADATA_ONLY or not song.lyrics_displayable:
+            banner_shown = True
             banner = QFrame()
             banner.setObjectName("banner")
             banner_layout = QVBoxLayout(banner)
@@ -231,15 +255,18 @@ class SongPage(QWidget):
             self.body.addSpacing(SP_LG)
             self._render_lyrics(lyrics, tokens)
         elif lyrics is not None and lyrics.available and lyrics.is_empty:
-            self.body.addWidget(
-                EmptyState(
-                    "Lyrics unavailable in this database",
-                    "This record is stored as metadata only, so no lyric text "
-                    "can be shown.",
-                    glyph="info",
+            # The copyright banner above already states why no lyric text is
+            # shown — do not stack a second, near-identical message under it.
+            if not banner_shown:
+                self.body.addWidget(
+                    EmptyState(
+                        "Lyrics unavailable in this database",
+                        "This record is stored as metadata only, so no lyric text "
+                        "can be shown.",
+                        glyph="info",
+                    )
                 )
-            )
-        else:
+        elif not banner_shown:
             self.body.addWidget(
                 EmptyState(
                     "Lyrics unavailable in this database",
@@ -258,6 +285,13 @@ class SongPage(QWidget):
     def _clear_body(self) -> None:
         while self.body.count():
             item = self.body.takeAt(0)
+            widget = item.widget()
+            if widget is not None:
+                widget.deleteLater()
+
+    def _clear_chips(self) -> None:
+        while self._chips_row.count():
+            item = self._chips_row.takeAt(0)
             widget = item.widget()
             if widget is not None:
                 widget.deleteLater()

@@ -4,7 +4,7 @@
 ; Build:
 ;     ISCC.exe LyricSync.iss
 ;
-; Output:  dist\LyricSync-Setup-1.5.1.exe
+; Output:  dist\LyricSync-Setup-1.5.2.exe
 ;
 ; Per-user install (no UAC): the application is read-only at install time and
 ; keeps all writable state in %APPDATA%\LyricSync, so no admin rights are
@@ -13,7 +13,7 @@
 
 #define MyAppName "Lyric Sync"
 #define MyAppId "{{AC88197D-A5EA-4278-89A7-A3DFAC7D904B}"
-#define MyAppVersion "1.5.1"
+#define MyAppVersion "1.5.2"
 #define MyAppPublisher "The Kreadive Galaxy"
 #define MyAppURL "https://the-kreadive-galaxy.web.app/"
 #define MyAppExeName "LyricSync.exe"

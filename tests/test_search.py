@@ -158,3 +158,47 @@ def test_result_carries_evidence_not_a_fake_confidence(engine):
     assert match.score <= 1
     assert match.matched_fields
     assert not any("%" in field for field in match.matched_fields)
+
+
+# ---------------------------------------------------------------------------
+# Tie-break: readable lyrics before metadata-only rows (UI service layer)
+# ---------------------------------------------------------------------------
+
+
+def _ui_result(song_id, title, *, has_text):
+    from lyric_sync.models.search_result import MatchLabel, SearchResult
+    from lyric_sync.models.song import LYRICS_AVAILABLE, LYRICS_UNAVAILABLE, Song
+
+    song = Song(
+        id=song_id,
+        title=title,
+        copyright_status=PUBLIC_DOMAIN if has_text else METADATA_ONLY,
+        lyrics_status=LYRICS_AVAILABLE if has_text else LYRICS_UNAVAILABLE,
+    )
+    return SearchResult(song=song, score=1.0, label=MatchLabel.STRONG)
+
+
+def test_tied_results_prefer_songs_with_readable_lyrics():
+    from lyric_sync.search.lyric_search_service import _exact_title_first
+    from lyric_sync.search.query_normalizer import normalize_query
+
+    meta_only = _ui_result("meta", "Hallelujah Eh", has_text=False)
+    readable = _ui_result("text", "We Raise a Sound", has_text=True)
+
+    ordered = _exact_title_first(
+        [meta_only, readable], normalize_query("hallelujah eh eh eh")
+    )
+    assert [result.song_id for result in ordered] == ["text", "meta"]
+
+
+def test_exact_title_match_stays_first_even_without_lyrics():
+    from lyric_sync.search.lyric_search_service import _exact_title_first
+    from lyric_sync.search.query_normalizer import normalize_query
+
+    exact_meta = _ui_result("way-maker", "Way Maker", has_text=False)
+    other_text = _ui_result("other", "The Way Maker Song", has_text=True)
+
+    ordered = _exact_title_first(
+        [other_text, exact_meta], normalize_query("way maker")
+    )
+    assert [result.song_id for result in ordered] == ["way-maker", "other"]

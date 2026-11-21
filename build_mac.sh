@@ -28,7 +28,7 @@ fi
 
 PYTHON="${PYTHON:-python3}"
 VERSION="$(sed -n 's/^VERSION = "\(.*\)"/\1/p' lyric_sync/app/config.py | head -n1)"
-VERSION="${VERSION:-1.5.2}"
+VERSION="${VERSION:-1.5.3}"
 APP="dist/LyricSync.app"
 BIN="$APP/Contents/MacOS/LyricSync"
 

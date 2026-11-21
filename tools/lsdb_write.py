@@ -149,10 +149,13 @@ def recompute_metadata(con, *, version=None, bump_note=None):
         "SELECT id, title, artist FROM songs ORDER BY id"
     ).fetchall():
         digest.update("|".join(str(v) for v in row).encode("utf-8"))
-    for row in con.execute(
-        "SELECT song_id, section_order, line_order, text FROM lyrics "
-        "ORDER BY song_id, section_order, line_order"
-    ).fetchall():
+    # Python-side sort: SQLite's ORDER BY over 60k+ lyric rows takes ~20 s on
+    # the production database; this produces the identical canonical order.
+    lyric_rows = con.execute(
+        "SELECT song_id, section_order, line_order, text FROM lyrics"
+    ).fetchall()
+    lyric_rows.sort(key=lambda row: (str(row[0]), row[1], row[2]))
+    for row in lyric_rows:
         digest.update("|".join(str(v) for v in row).encode("utf-8"))
     content_hash = digest.hexdigest()
 
@@ -183,25 +186,34 @@ def recompute_metadata(con, *, version=None, bump_note=None):
 
 
 def validate(con) -> dict:
-    """Non-destructive sanity checks mirroring the app's expectations."""
+    """Non-destructive sanity checks mirroring the app's expectations.
+
+    Set comparisons, not correlated ``NOT EXISTS``: ``lyric_search_index`` has
+    no index on ``song_id``, so the subquery form scans it once per song and can
+    hang for minutes on the production database.
+    """
     problems = []
-    # every song_id in lyrics exists in songs
-    orphans = con.execute(
-        "SELECT COUNT(*) FROM lyrics l WHERE NOT EXISTS "
-        "(SELECT 1 FROM songs s WHERE s.id=l.song_id)").fetchone()[0]
-    if orphans:
-        problems.append(f"{orphans} orphan lyric rows")
-    # every songs.id has a search index row
-    missing_idx = con.execute(
-        "SELECT COUNT(*) FROM songs s WHERE NOT EXISTS "
-        "(SELECT 1 FROM lyric_search_index i WHERE i.song_id=s.id)").fetchone()[0]
+    song_ids = {row[0] for row in con.execute("SELECT id FROM songs")}
+    lyric_song_ids = {
+        row[0] for row in con.execute("SELECT DISTINCT song_id FROM lyrics")
+    }
+    orphan_ids = lyric_song_ids - song_ids
+    if orphan_ids:
+        problems.append(f"{len(orphan_ids)} orphan lyric song ids")
+
+    index_ids = {
+        row[0] for row in con.execute("SELECT song_id FROM lyric_search_index")
+    }
+    missing_idx = song_ids - index_ids
     if missing_idx:
-        problems.append(f"{missing_idx} songs missing search index")
-    missing_fts = con.execute(
-        "SELECT COUNT(*) FROM songs s WHERE NOT EXISTS "
-        "(SELECT 1 FROM lyric_search_fts f WHERE f.song_id=s.id)").fetchone()[0]
+        problems.append(f"{len(missing_idx)} songs missing search index")
+
+    fts_ids = {
+        row[0] for row in con.execute("SELECT song_id FROM lyric_search_fts")
+    }
+    missing_fts = song_ids - fts_ids
     if missing_fts:
-        problems.append(f"{missing_fts} songs missing FTS row")
+        problems.append(f"{len(missing_fts)} songs missing FTS row")
     # CHECK constraints are enforced by SQLite on write; do a quick distinct scan
     bad_cs = con.execute(
         "SELECT COUNT(*) FROM songs WHERE copyright_status NOT IN "

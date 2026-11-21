@@ -38,6 +38,7 @@ class SettingsPage(QWidget):
     validate_database = Signal()
     reload_database = Signal()
     locate_database = Signal()
+    import_lyrics_requested = Signal()
     open_about = Signal()
 
     def __init__(self, parent: QWidget | None = None) -> None:
@@ -263,6 +264,41 @@ class SettingsPage(QWidget):
         column.addWidget(card)
         column.addSpacing(SP_LG)
 
+        # ------------------------------------------------------------ lyrics
+        card, layout = self._card()
+        layout.addWidget(SectionTitle("Lyrics"))
+        layout.addSpacing(SP_MD)
+
+        lyrics_body = QLabel(
+            "Add your own lyric files (PDF, TXT or Markdown). Lyric Sync stores "
+            "exactly what you supply, records a SHA-256 fingerprint of every "
+            "file, and rebuilds search so the new songs become findable. A "
+            "database backup is made before each import."
+        )
+        lyrics_body.setProperty("role", "caption")
+        lyrics_body.setWordWrap(True)
+        layout.addWidget(lyrics_body)
+        layout.addSpacing(SP_MD)
+
+        import_row = QHBoxLayout()
+        import_row.setSpacing(SP_SM)
+        self.import_lyrics_button = QPushButton("Import lyrics files…")
+        self.import_lyrics_button.setProperty("variant", "primary")
+        self.import_lyrics_button.setCursor(Qt.PointingHandCursor)
+        self.import_lyrics_button.clicked.connect(self.import_lyrics_requested.emit)
+        import_row.addWidget(self.import_lyrics_button)
+        import_row.addStretch(1)
+        layout.addLayout(import_row)
+
+        layout.addSpacing(SP_XS)
+        self.import_status = QLabel("")
+        self.import_status.setProperty("role", "caption")
+        self.import_status.setWordWrap(True)
+        self.import_status.hide()
+        layout.addWidget(self.import_status)
+        column.addWidget(card)
+        column.addSpacing(SP_LG)
+
         # ----------------------------------------------------- application
         card, layout = self._card()
         layout.addWidget(SectionTitle("Application"))
@@ -378,6 +414,21 @@ class SettingsPage(QWidget):
 
     def set_database_path(self, path: str) -> None:
         self.database_path_label.setText(f"Active path: {path}")
+
+    def set_import_status(
+        self, text: str, *, ok: bool | None = None, busy: bool = False
+    ) -> None:
+        """Show the outcome of the last lyric import."""
+        self.import_lyrics_button.setEnabled(not busy)
+        self.import_lyrics_button.setProperty("loading", busy)
+        self.import_lyrics_button.style().unpolish(self.import_lyrics_button)
+        self.import_lyrics_button.style().polish(self.import_lyrics_button)
+        self.import_status.setText(text)
+        self.import_status.setVisible(bool(text))
+        if ok is not None:
+            self.import_status.setProperty("role", "accent" if ok else "muted")
+            self.import_status.style().unpolish(self.import_status)
+            self.import_status.style().polish(self.import_status)
 
     def set_validation_result(self, text: str, ok: bool) -> None:
         self.validate_button.setEnabled(True)

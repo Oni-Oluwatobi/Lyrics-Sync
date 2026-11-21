@@ -27,6 +27,7 @@ from lyric_sync.app.theme import HEADER_HEIGHT, NAV_RAIL_WIDTH, apply_theme
 from lyric_sync.auth.session import AuthSession
 from lyric_sync.database.database_validator import ValidationReport, validate_file
 from lyric_sync.database.lsdb_manager import LSDBManager
+from lyric_sync.importing import LyricImportService
 from lyric_sync.models.search_result import MatchLabel, SearchResult
 from lyric_sync.search.lyric_search_service import (
     DatabaseMissingError,
@@ -371,6 +372,7 @@ class MainWindow(QMainWindow):
         page.validate_database.connect(self._validate_database)
         page.reload_database.connect(self.reload_database)
         page.locate_database.connect(self._locate_database)
+        page.import_lyrics_requested.connect(self.import_lyrics)
         page.open_about.connect(lambda: self.show_page(PAGE_ABOUT))
 
     def _wire_db_info(self) -> None:
@@ -907,6 +909,60 @@ class MainWindow(QMainWindow):
         self.settings_page.set_database_status(False, "", f"{headline}: {detail}")
         self.search_screen.show_error(f"{headline}. {detail}")
         self.about_page.set_stats(None, None)
+
+    def import_lyrics(self) -> None:
+        """Import user-supplied lyric files into the active database."""
+        files, _ = QFileDialog.getOpenFileNames(
+            self,
+            "Import lyric files",
+            "",
+            "Lyric files (*.pdf *.txt *.md);;All files (*.*)",
+        )
+        if not files:
+            return
+        db_path = self.service.path
+        if not self.service.available or db_path is None:
+            self.settings_page.set_import_status(
+                "Load the Gospel database before importing lyrics.", ok=False
+            )
+            return
+
+        # The app's own reader holds the database open; release it before the
+        # import writes. reload_database() reopens everything afterwards.
+        self.service.close()
+        if self.manager is not None:
+            try:
+                self.manager.close()
+            except Exception:  # noqa: BLE001 - closing must never raise
+                pass
+            self.manager = None
+
+        self.settings_page.set_import_status("Importing lyric files…", busy=True)
+        importer = LyricImportService(db_path)
+
+        def work():
+            return importer.import_files(files)
+
+        def done(outcome) -> None:
+            message = outcome.summary()
+            if outcome.backup_path:
+                message += f"  Backup: {Path(outcome.backup_path).name}"
+            if outcome.failed:
+                name, reason = outcome.failed[0]
+                log_event("import", f"{name}: {reason}")
+            self.settings_page.set_import_status(
+                message, ok=outcome.imported > 0
+            )
+            self.reload_database()
+
+        def failed(message: str) -> None:
+            log_event("import", f"lyric import failed: {message}")
+            self.settings_page.set_import_status(
+                f"Import failed: {message}", ok=False
+            )
+            self.reload_database()
+
+        run_task(work, on_finished=done, on_error=failed)
 
     def _locate_database(self) -> None:
         start_dir = str(config.project_root() / config.DATABASE_DIRNAME)

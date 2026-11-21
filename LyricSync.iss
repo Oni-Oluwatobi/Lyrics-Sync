@@ -71,3 +71,29 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#MyAppName}}
 ; Application state lives in %APPDATA%\LyricSync and is intentionally kept
 ; after uninstall (favorites and search history are user data).
 Type: files; Name: "{app}\*.log"
+
+[Code]
+{ The shipped database is replaced on every install/upgrade. Songs the user
+  imported in-app would otherwise be lost, so copy the existing database to
+  %APPDATA%\LyricSync\backups before the files are written. }
+procedure BackupUserDatabase();
+var
+  DbPath, BackupDir, Stamp: String;
+begin
+  DbPath := ExpandConstant('{app}\_internal\data\lyric_sync_gospel.lsdb');
+  if not FileExists(DbPath) then
+    exit;
+  BackupDir := ExpandConstant('{userappdata}\LyricSync\backups');
+  ForceDirectories(BackupDir);
+  Stamp := GetDateTimeString('yyyymmdd_hhnnss', #0, #0);
+  if CopyFile(DbPath, BackupDir + '\lyric_sync_gospel_pre_update_' + Stamp + '.lsdb', False) then
+    Log('Backed up the existing database to ' + BackupDir)
+  else
+    Log('WARNING: could not back up the existing database');
+end;
+
+procedure CurStepChanged(CurStep: TSetupStep);
+begin
+  if CurStep = ssInstall then
+    BackupUserDatabase();
+end;

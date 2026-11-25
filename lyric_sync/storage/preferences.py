@@ -49,6 +49,7 @@ class Preferences:
     theme: str = "system"
     search_history_enabled: bool = True
     live_search: bool = True
+    show_without_lyrics: bool = False
     sensitivity: str = "balanced"
     database_override: str | None = None
     recent_searches: list[str] = field(default_factory=list)
@@ -86,6 +87,9 @@ class Preferences:
             read("search_history_enabled", preferences.search_history_enabled)
         )
         preferences.live_search = bool(read("live_search", preferences.live_search))
+        preferences.show_without_lyrics = bool(
+            read("show_without_lyrics", preferences.show_without_lyrics)
+        )
         preferences.sensitivity = str(read("sensitivity", preferences.sensitivity))
         override = read("database_override", None)
         preferences.database_override = str(override) if override else None
@@ -106,6 +110,7 @@ class Preferences:
             "theme": self.theme,
             "search_history_enabled": self.search_history_enabled,
             "live_search": self.live_search,
+            "show_without_lyrics": self.show_without_lyrics,
             "sensitivity": self.sensitivity,
             "database_override": self.database_override,
             "recent_searches": self.recent_searches[: self.recent_limit],

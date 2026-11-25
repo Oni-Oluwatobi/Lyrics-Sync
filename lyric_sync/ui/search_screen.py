@@ -33,6 +33,19 @@ PREVIEW_BREAKPOINT = 980
 PREVIEW_WIDTH = 340
 
 
+def split_by_lyrics(results, show_without_lyrics: bool):
+    """Return (visible, hidden_count) for the lyrics-first default.
+
+    Songs stored as metadata-only can be identified but have no lyric text to
+    read; hiding them by default keeps results focused on songs you can sing
+    along with. The Settings switch restores the full catalogue.
+    """
+    if show_without_lyrics:
+        return list(results), 0
+    visible = [result for result in results if result.has_lyrics]
+    return visible, len(results) - len(visible)
+
+
 class SearchScreen(QWidget):
     """The Search workspace: query field, ranked results, lyrics preview."""
 
@@ -63,6 +76,7 @@ class SearchScreen(QWidget):
         self._render_tokens: list[str] = []
         self._tokens: list[str] = []
         self._state = self.STATE_IDLE
+        self.show_without_lyrics = False
         self._render_timer = QTimer(self)
         self._render_timer.setSingleShot(True)
         self._render_timer.timeout.connect(self._render_chunk)
@@ -357,6 +371,10 @@ class SearchScreen(QWidget):
         if button is not None and not button.isChecked():
             button.setChecked(True)
 
+    def set_show_without_lyrics(self, enabled: bool) -> None:
+        """Lyrics-first default: hide metadata-only catalogue rows."""
+        self.show_without_lyrics = bool(enabled)
+
     @property
     def state(self) -> int:
         return self._state
@@ -414,28 +432,43 @@ class SearchScreen(QWidget):
             self.show_unavailable()
             return
 
-        total = len(response.results)
-        self.summary_label.setText(f"Results for “{query_text}”")
-        self.count_chip.setText(
-            f"{total} SONG" + ("S FOUND" if total != 1 else " FOUND")
+        results, hidden = split_by_lyrics(
+            response.results, self.show_without_lyrics
         )
+        total = len(results)
+        self.summary_label.setText(f"Results for “{query_text}”")
+        chip_text = f"{total} SONG" + ("S FOUND" if total != 1 else " FOUND")
+        if hidden:
+            chip_text += f" · {hidden} HIDDEN"
+        self.count_chip.setText(chip_text)
 
-        if not response.results:
+        if not results:
             self.show_state(self.STATE_EMPTY)
-            self._footer.setText("")
+            if hidden:
+                self._footer.setText(
+                    f"{hidden} match(es) are catalogue metadata only (no lyric "
+                    f"text). Turn on “Show songs without lyrics” in Settings to "
+                    f"see them."
+                )
+            else:
+                self._footer.setText("")
             return
 
         tokens = list(response.query.tokens)
         self._tokens = tokens
-        self._render_queue = list(response.results)
+        self._render_queue = list(results)
         self._render_tokens = tokens
         self._render_chunk()  # first slice immediately; the rest chunked
         self.show_state(self.STATE_LIST)
-        self._footer.setText(
+        footer = (
             f"{response.candidate_count} candidates examined in "
             f"{response.elapsed_ms:.0f} ms"
-            + ("  ·  showing the strongest matches only" if response.truncated else "")
         )
+        if hidden:
+            footer += f"  ·  {hidden} metadata-only hiding"
+        if response.truncated:
+            footer += "  ·  showing the strongest matches only"
+        self._footer.setText(footer)
 
     def reset_state(self) -> None:
         """Return to the idle prompt after the database becomes available."""

@@ -202,3 +202,18 @@ def test_exact_title_match_stays_first_even_without_lyrics():
         [other_text, exact_meta], normalize_query("way maker")
     )
     assert [result.song_id for result in ordered] == ["way-maker", "other"]
+
+
+def test_lyrics_first_hides_metadata_only_by_default():
+    from lyric_sync.ui.search_screen import split_by_lyrics
+
+    metadata_only = _ui_result("meta", "No Text", has_text=False)
+    readable = _ui_result("text", "Has Text", has_text=True)
+
+    visible, hidden = split_by_lyrics([metadata_only, readable], False)
+    assert [result.song_id for result in visible] == ["text"]
+    assert hidden == 1
+
+    visible, hidden = split_by_lyrics([metadata_only, readable], True)
+    assert [result.song_id for result in visible] == ["meta", "text"]
+    assert hidden == 0

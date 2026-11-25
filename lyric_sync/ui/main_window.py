@@ -126,6 +126,9 @@ class MainWindow(QMainWindow):
 
         self._sync_settings_page()
         self.search_screen.set_sensitivity(self.preferences.sensitivity)
+        self.search_screen.set_show_without_lyrics(
+            self.preferences.show_without_lyrics
+        )
         self.search_screen.set_favorite_lookup(self.favorites.contains)
         self.show_page(PAGE_SEARCH)
         self.library_page.set_recents(
@@ -366,6 +369,7 @@ class MainWindow(QMainWindow):
         page.theme_changed.connect(self._on_theme_changed)
         page.sensitivity_changed.connect(self._on_sensitivity_changed)
         page.live_search_toggled.connect(self._on_live_search_toggled)
+        page.show_no_lyrics_toggled.connect(self._on_show_without_lyrics_toggled)
         page.history_toggled.connect(self._on_history_toggled)
         page.clear_history_requested.connect(self._on_clear_recents)
         page.open_database_info.connect(self._open_database_info)
@@ -690,6 +694,7 @@ class MainWindow(QMainWindow):
         page.set_theme(self.preferences.theme)
         page.set_history_enabled(self.preferences.search_history_enabled)
         page.set_live_search(self.preferences.live_search)
+        page.set_show_without_lyrics(self.preferences.show_without_lyrics)
         page.set_recent_count(len(self.preferences.recent_searches))
         page.set_sensitivity(self.preferences.sensitivity)
 
@@ -709,6 +714,13 @@ class MainWindow(QMainWindow):
     def _on_live_search_toggled(self, enabled: bool) -> None:
         self.preferences.live_search = enabled
         self.preferences.save()
+
+    def _on_show_without_lyrics_toggled(self, enabled: bool) -> None:
+        self.preferences.show_without_lyrics = enabled
+        self.preferences.save()
+        self.search_screen.set_show_without_lyrics(enabled)
+        if self._active_query:
+            self._rerun_active_search()
 
     # --------------------------------------------------------------- database
 

@@ -33,6 +33,7 @@ class SettingsPage(QWidget):
     sensitivity_changed = Signal(str)
     live_search_toggled = Signal(bool)
     history_toggled = Signal(bool)
+    show_no_lyrics_toggled = Signal(bool)
     clear_history_requested = Signal()
     open_database_info = Signal()
     validate_database = Signal()
@@ -149,6 +150,22 @@ class SettingsPage(QWidget):
         self.live_search_switch.toggled.connect(self.live_search_toggled)
         live_row.addWidget(self.live_search_switch, 0, Qt.AlignTop)
         layout.addLayout(live_row)
+
+        layout.addSpacing(SP_MD)
+
+        # --- lyrics-first results (switch)
+        lyrics_first_row = QHBoxLayout()
+        lyrics_first_row.setSpacing(SP_MD)
+        lyrics_first_label = self._row_label(
+            "Show songs without lyrics",
+            "Catalogue-only entries have no lyric text; they are hidden from "
+            "results by default so every match can be read.",
+        )
+        lyrics_first_row.addWidget(lyrics_first_label, 1)
+        self.show_no_lyrics_switch = Switch()
+        self.show_no_lyrics_switch.toggled.connect(self.show_no_lyrics_toggled)
+        lyrics_first_row.addWidget(self.show_no_lyrics_switch, 0, Qt.AlignTop)
+        layout.addLayout(lyrics_first_row)
 
         layout.addSpacing(SP_LG)
         layout.addWidget(self._section_divider())
@@ -387,6 +404,11 @@ class SettingsPage(QWidget):
         self.live_search_switch.blockSignals(True)
         self.live_search_switch.setChecked(enabled)
         self.live_search_switch.blockSignals(False)
+
+    def set_show_without_lyrics(self, enabled: bool) -> None:
+        self.show_no_lyrics_switch.blockSignals(True)
+        self.show_no_lyrics_switch.setChecked(enabled)
+        self.show_no_lyrics_switch.blockSignals(False)
 
     def set_recent_count(self, count: int) -> None:
         if count:
